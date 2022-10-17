@@ -779,7 +779,7 @@ section.banner {
 --------------------------------------------------------------*/
 
 .counter1 {
-    background: url(images/bg_1.png) no-repeat center center;
+    background: url(images/bg_1.webp) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -997,7 +997,7 @@ section.banner {
 --------------------------------------------------------------*/
 
 .why-choose {
-    background: url(wp-content/themes/clove-child/images/why-choose-us.png) no-repeat center center;
+    background: url(wp-content/themes/clove-child/images/why-choose-us.webp) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -1320,7 +1320,7 @@ section.banner {
 --------------------------------------------------------------*/
 
 .advTechnology {
-    background: url(wp-content/themes/clove-child/images/bg_1.png) no-repeat center center;
+    background: url(wp-content/themes/clove-child/images/bg_1.webp) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
