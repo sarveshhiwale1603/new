@@ -21,7 +21,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
 <script type="text/javascript" src="http://www.youtube.com/player_api"></script>
 
-<!-- <link rel="shortcut icon" href="wp-content\themes\clove\images\favicon.png" type="image/x-icon"> -->
+<link rel="shortcut icon" href="wp-content\themes\clove\images\favicon.png" type="image/x-icon">
 
 
 <link rel="profile" href="https://gmpg.org/xfn/11">
