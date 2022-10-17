@@ -1,0 +1,26 @@
+[14-Oct-2022 03:40:12 UTC] PHP Notice:  Undefined variable: conn in /home/wudtnvqc8oys/public_html/include/sidebar.php on line 55
+[14-Oct-2022 03:40:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wudtnvqc8oys/public_html/include/sidebar.php on line 55
+[14-Oct-2022 03:41:46 UTC] PHP Notice:  Undefined variable: conn in /home/wudtnvqc8oys/public_html/include/sidebar.php on line 55
+[14-Oct-2022 03:41:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wudtnvqc8oys/public_html/include/sidebar.php on line 55
+[14-Oct-2022 03:43:32 UTC] PHP Notice:  Undefined variable: conn in /home/wudtnvqc8oys/public_html/include/topbar.php on line 5
+[14-Oct-2022 03:43:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wudtnvqc8oys/public_html/include/topbar.php on line 5
+[14-Oct-2022 03:44:20 UTC] PHP Notice:  Undefined variable: conn in /home/wudtnvqc8oys/public_html/include/topbar.php on line 5
+[14-Oct-2022 03:44:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wudtnvqc8oys/public_html/include/topbar.php on line 5
+[14-Oct-2022 03:46:48 UTC] PHP Notice:  Undefined variable: conn in /home/wudtnvqc8oys/public_html/include/topbar.php on line 5
+[14-Oct-2022 03:46:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wudtnvqc8oys/public_html/include/topbar.php on line 5
+[14-Oct-2022 03:51:46 UTC] PHP Notice:  Undefined variable: conn in /home/wudtnvqc8oys/public_html/include/topbar.php on line 5
+[14-Oct-2022 03:51:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wudtnvqc8oys/public_html/include/topbar.php on line 5
+[14-Oct-2022 03:56:22 UTC] PHP Notice:  Undefined variable: conn in /home/wudtnvqc8oys/public_html/include/topbar.php on line 5
+[14-Oct-2022 03:56:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wudtnvqc8oys/public_html/include/topbar.php on line 5
+[14-Oct-2022 03:58:28 UTC] PHP Notice:  Undefined variable: conn in /home/wudtnvqc8oys/public_html/include/topbar.php on line 5
+[14-Oct-2022 03:58:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wudtnvqc8oys/public_html/include/topbar.php on line 5
+[14-Oct-2022 03:59:20 UTC] PHP Notice:  Undefined variable: conn in /home/wudtnvqc8oys/public_html/include/topbar.php on line 5
+[14-Oct-2022 03:59:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wudtnvqc8oys/public_html/include/topbar.php on line 5
+[14-Oct-2022 04:01:25 UTC] PHP Notice:  Undefined variable: conn in /home/wudtnvqc8oys/public_html/include/sidebar.php on line 55
+[14-Oct-2022 04:01:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wudtnvqc8oys/public_html/include/sidebar.php on line 55
+[14-Oct-2022 09:33:55 Asia/Calcutta] PHP Notice:  Undefined variable: conn in /home/wudtnvqc8oys/public_html/include/sidebar.php on line 207
+[14-Oct-2022 09:33:55 Asia/Calcutta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wudtnvqc8oys/public_html/include/sidebar.php on line 207
+[14-Oct-2022 09:38:17 Asia/Calcutta] PHP Notice:  Undefined variable: conn in /home/wudtnvqc8oys/public_html/include/sidebar.php on line 207
+[14-Oct-2022 09:38:17 Asia/Calcutta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wudtnvqc8oys/public_html/include/sidebar.php on line 207
+[14-Oct-2022 09:40:10 Asia/Calcutta] PHP Notice:  Undefined variable: conn in /home/wudtnvqc8oys/public_html/include/sidebar.php on line 207
+[14-Oct-2022 09:40:10 Asia/Calcutta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wudtnvqc8oys/public_html/include/sidebar.php on line 207
