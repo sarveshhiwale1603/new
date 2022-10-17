@@ -6,7 +6,7 @@
 <div class="side-menu">
     <span class="side-menu-close"><i class="fa fa-times" aria-hidden="true"></i></span>
     <div class="logo-side-menu">
-    <a href="index.php"><img src="wp-content/themes/clove/images/img_logo_new.png" class="logo1" alt="Go Best Dental Clinic" width="125" height="56"></a>
+    <a href="index.php"><img src="wp-content/themes/clove/images/img_logo_new.webp" class="logo1" alt="Go Best Dental Clinic" width="125" height="56"></a>
     </div>
     <div class="side-menu-scroll">
         <div class="menu-scroll-in">
@@ -69,8 +69,8 @@
 </div>
 <div style="padding:5px 5px 5px 55px;background:white;height: 4rem;">
 <div class="logo-box">
-<a href="index.php" class="logo-dsk"><img src="wp-content/themes/clove/images/img_logo_new.png"  alt="Gobest Dentist" width="125" height="56"></a>
-<a href="index.php" class="logo-mbl"><img src="wp-content/uploads/2020/10/logo_clove_new-min.png" class="logo1" alt="Clove Dental Clinic" width="263" height="102"></a>
+<a href="index.php" class="logo-dsk"><img src="wp-content/themes/clove/images/img_logo_new.webp"  alt="Gobest Dentist" width="125" height="56"></a>
+<a href="index.php" class="logo-mbl"><img src="wp-content/uploads/2020/10/logo_clove_new-min.webp" class="logo1" alt="Clove Dental Clinic" width="263" height="102"></a>
 </div>
 <div class="toggle-icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
 <div class="toggle-menu"><span></span></div>
