@@ -978,7 +978,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000" style="background:white">
                             <div class="row">
                                 <div class="col-lg-3">
-                                    <img src="images/google.png" style="max-width:initial!important;">
+                                    <img src="images/google.webp" style="max-width:initial!important;">
                                 </div>
                                 <div class="col-lg-9">
                                     <h5>Google</h5>
