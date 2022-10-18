@@ -19,7 +19,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
-<!-- <script type="text/javascript" src="http://www.youtube.com/player_api"></script> -->
+<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
 
 <link rel="shortcut icon" href="wp-content\themes\clove\images\favicon.png" type="image/x-icon">
 
