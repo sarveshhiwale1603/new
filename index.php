@@ -30,8 +30,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="css/carousel.min.css">
 <link rel="stylesheet" href="css/styleindex.css">
 
+<!-- <link href="wp-content/themes/clove/css/font-awesome.css" rel="stylesheet"> -->
+<link href="wp-content/themes/clove/css/fa.css" rel="stylesheet">
 
-<link href="wp-content/themes/clove/css/font-awesome.css" rel="stylesheet">
 <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

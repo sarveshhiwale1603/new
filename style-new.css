@@ -1320,7 +1320,7 @@ section.banner {
 --------------------------------------------------------------*/
 
 .advTechnology {
-    background: url(wp-content/themes/clove-child/images/bg_1.webp) no-repeat center center;
+    background: url(images/bg_1.webp) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }

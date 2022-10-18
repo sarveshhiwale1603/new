@@ -623,7 +623,7 @@ body.header-home .head-outer {
 }
 
 .nav-bar {
-    width: 67%
+    width: 70%
 }
 
 .head-top-menu ul li, .header-bottom .info-box li, .nav-bar li {
@@ -7288,4 +7288,8 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     .video-testimonial .textb h3 {
         font-size: 16px
     }
+}
+body.header-home .head-outer.sticky {
+    padding: 0;
+    top: 0;
 }
