@@ -17,9 +17,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="India&#039;s Largest Dental Chain. Best Dentists and Dental Clinics in Delhi NCR, Jaipur, Chandigarh, Ahmedabad, Hyderabad, Chennai, Bangalore and pan India with a team of India’s best dentists. Find best dentist near me."/>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
-<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
 
 <link rel="shortcut icon" href="wp-content\themes\clove\images\favicon.png" type="image/x-icon">
 
@@ -31,24 +28,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="css/styleindex.css">
 
 <link href="wp-content/themes/clove/css/font-awesome.css" rel="stylesheet">
-<link href="wp-content/themes/clove/css/fa.css" rel="stylesheet">
+<!-- <link href="wp-content/themes/clove/css/fa.css" rel="stylesheet"> -->
 
 <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
-<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="js/jsddd.js"></script>
 
 
 <!-- <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style1.css" type="text/css"> -->
 <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css">
 	
-<script defer src="wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
-<script defer src="wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script>
-<script async id="sourcecode">
-</script>
-<script defer async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
 
-<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
 
 <link rel="canonical" href="index.html" />
 <meta property="og:locale" content="en_US" />
@@ -57,72 +45,127 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:description" content="India&#039;s Largest Dental Chain. Best Dentists and Dental Clinics in Delhi NCR, Jaipur, Chandigarh, Ahmedabad, Hyderabad, Chennai, Bangalore and pan India with a team of India’s best dentists. Find best dentist near me." />
 <meta property="og:url" content="https://clovedental.in/" />
 <meta property="og:site_name" content="Clove Dental" />
-<script>
-        function initComparisons() {
-            var x, i;
-            x = document.getElementsByClassName("img-comp-overlay");
-            for (i = 0; i < x.length; i++) {
-                
-                compareImages(x[i]);
-            }
 
-            function compareImages(img) {
-                var slider, img, clicked = 0,
-                    w, h;
-                w = img.offsetWidth;
-                h = img.offsetHeight;
-                img.style.width = (w / 2) + "px";
-                /*create slider:*/
-                slider = document.createElement("img");
-                slider.setAttribute("class", "img-comp-slider");
-                slider.setAttribute("src","slider.png")
+<style>
+.important_info_icon{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:url('wp-content/uploads/2020/03/info_icon_white.png') no-repeat center;
+  background-size:30px;
+  background-color:#F00;
+  position:fixed;
+  left:10px;
+  bottom:40px;
+  z-index:99999;
+  box-shadow:0 0 4px rgba(0,0,0,.3);
+  -webkit-animation:bounce 2s infinite linear 1s;
+  animation:bounce 2s infinite linear 1s;
+}
+@-webkit-keyframes bounce{
+   from{bottom:30px}
+   to{bottom:50px}
+}
+@keyframes bounce{
+   from{bottom:30px}
+   to{bottom:50px}
+}
 
-                /*insert slider*/
-                img.parentElement.insertBefore(slider, img);
-                slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
-                slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
-                slider.addEventListener("mousedown", slideReady);
-                window.addEventListener("mouseup", slideFinish);
-                slider.addEventListener("touchstart", slideReady);
-                window.addEventListener("touchend", slideFinish);
+.important_info_icon a{
+   display:block;
+   position:absolute;
+   left:0;right:0;
+   top:0;bottom:0;
+}
+.important_info_icon .info{
+  width:auto;
+  position:absolute;
+  left:60px;
+  bottom:0;
+  background-color:#FFF;
+  padding:10px 15px;
+  border-radius:4px;
+  box-shadow:0 0 4px rgba(0,0,0,.3);
+}
+.important_info_icon .info:before{
+  content:'';
+  width:10px;height:10px;
+  position:absolute;
+  top:0;bottom:0;
+  margin:auto;left:-10px;
+  border-top:10px solid transparent;
+  border-bottom:10px solid transparent;
+  border-right:10px solid #FFF;
+}
+</style>
+<style>
+  
+.phone-btn {
+    position: fixed;
+    z-index: 999;
+    background-color: #fe0600;
+    color: #fff;
+    padding: .6rem .9rem;
+    border-radius: 50%;
+    transition: .6s;
+    box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
+    animation: cc-calto-action-ripple .6s linear infinite !important;
+    
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
 
-                function slideReady(e) {
-                    e.preventDefault();
-                    clicked = 1;
-                    window.addEventListener("mousemove", slideMove);
-                    window.addEventListener("touchmove", slideMove);
-                }
+@-webkit-keyframes cc-calto-action-ripple {
+    0% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
+    }
+    100% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
+    }
+}
 
-                function slideFinish() {
-                    clicked = 0;
-                }
+@keyframes cc-calto-action-ripple {
+    0% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
+    }
+    100% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
+    }
+}
 
-                function slideMove(e) {
-                    var pos;
-                    if (clicked == 0) return false;
-                    pos = getCursorPos(e)
-                    if (pos < 0) pos = 0;
-                    if (pos > w) pos = w;
-                    slide(pos);
-                }
+.phone-btn:hover {
+    text-decoration: none;
+}
 
-                function getCursorPos(e) {
-                    var a, x = 0;
-                    e = (e.changedTouches) ? e.changedTouches[0] : e;
-                    a = img.getBoundingClientRect();
-                    x = e.pageX - a.left;
-                    x = x - window.pageXOffset;
-                    return x;
-                }
+.phone-btn i {
+    font-size: 2rem;
+    transition: .3s ease;
+}
 
-                function slide(x) {
-                    img.style.width = x + "px";
-                    slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
-                }
-            }
-        }
-        
-    </script>
+.phone-btn:hover {
+    color: #fff;
+    box-shadow: 0px 0px 16px 3px #fff;
+    transform: translateY(-10px);
+    transition: .6s;
+}
+
+@media (max-width: 1024px) {
+  .phone-btn {
+        bottom: 1rem;
+        right: auto;
+        left: 15px;
+    }
+    
+}
+
+</style>
+
 <style>
        
        * {
@@ -175,41 +218,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
  </style>
 
- <script>
- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.defer=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-58837352-1', 'auto');
-  ga('send', 'pageview');
-  /*Facebook Pixel Code */
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '400629990135976');
-  fbq('track', 'PageView');
-  fbq('track', 'Lead');
- /* End Facebook Pixel Code*/
-</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'AW-958029923');
-</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
-<script async>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-58837352-1');
-</script>
 <style>
 
   @media (max-width:1024px){
@@ -403,37 +411,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
      
 <?php include("include/topbar.php"); ?>
-<script>
 
-</script>
-    <!--stories-->
-    <script type="text/javascript">
-    players = new Array();
 
-    function onYouTubeIframeAPIReady() {
-        var temp = $("iframe.yt_players");
-        for (var i = 0; i < temp.length; i++) {
-            var t = new YT.Player($(temp[i]).attr('id'), {
-                events: {
-                    'onStateChange': onPlayerStateChange
-                }
-            });
-            players.push(t);
-        }
-    }
-    onYouTubeIframeAPIReady();
-
-    function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING) {
-            var temp = event.target.getVideoUrl();
-            var tempPlayers = $("iframe.yt_players");
-            for (var i = 0; i < players.length; i++) {
-                if (players[i].getVideoUrl() != temp) 
-                    players[i].stopVideo();
-            }
-        }
-    }
-</script>
 <header>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -1150,130 +1129,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 
-
-<script>
-
-</script>
- <style>
-.important_info_icon{
-  width:50px;
-  height:50px;
-  border-radius:50%;
-  background:url('wp-content/uploads/2020/03/info_icon_white.png') no-repeat center;
-  background-size:30px;
-  background-color:#F00;
-  position:fixed;
-  left:10px;
-  bottom:40px;
-  z-index:99999;
-  box-shadow:0 0 4px rgba(0,0,0,.3);
-  -webkit-animation:bounce 2s infinite linear 1s;
-  animation:bounce 2s infinite linear 1s;
-}
-@-webkit-keyframes bounce{
-   from{bottom:30px}
-   to{bottom:50px}
-}
-@keyframes bounce{
-   from{bottom:30px}
-   to{bottom:50px}
-}
-
-.important_info_icon a{
-   display:block;
-   position:absolute;
-   left:0;right:0;
-   top:0;bottom:0;
-}
-.important_info_icon .info{
-  width:auto;
-  position:absolute;
-  left:60px;
-  bottom:0;
-  background-color:#FFF;
-  padding:10px 15px;
-  border-radius:4px;
-  box-shadow:0 0 4px rgba(0,0,0,.3);
-}
-.important_info_icon .info:before{
-  content:'';
-  width:10px;height:10px;
-  position:absolute;
-  top:0;bottom:0;
-  margin:auto;left:-10px;
-  border-top:10px solid transparent;
-  border-bottom:10px solid transparent;
-  border-right:10px solid #FFF;
-}
-</style>
-<style>
-  
-.phone-btn {
-    position: fixed;
-    z-index: 999;
-    background-color: #fe0600;
-    color: #fff;
-    padding: .6rem .9rem;
-    border-radius: 50%;
-    transition: .6s;
-    box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
-    animation: cc-calto-action-ripple .6s linear infinite !important;
-    
-    width: 3.5rem;
-    height: 3.5rem;
-    display: flex;
-    align-items: center;
-}
-
-@-webkit-keyframes cc-calto-action-ripple {
-    0% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
-    }
-    100% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
-    }
-}
-
-@keyframes cc-calto-action-ripple {
-    0% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
-    }
-    100% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
-    }
-}
-
-.phone-btn:hover {
-    text-decoration: none;
-}
-
-.phone-btn i {
-    font-size: 2rem;
-    transition: .3s ease;
-}
-
-.phone-btn:hover {
-    color: #fff;
-    box-shadow: 0px 0px 16px 3px #fff;
-    transform: translateY(-10px);
-    transition: .6s;
-}
-
-@media (max-width: 1024px) {
-  .phone-btn {
-        bottom: 1rem;
-        right: auto;
-        left: 15px;
-    }
-    
-}
-
-</style>
-
 <?php include("include/footer.php") ?>
 
     <!-- Call Us -->
@@ -1284,7 +1139,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script defer src="wp-content/themes/clove/js/jquery.flexslider.js" ></script>
 <script defer src="wp-content/themes/clove/js/scripts.js" ></script>
 
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/jsddd.js"></script>
+<script defer src="wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
+<script defer src="wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script>
+<script async id="sourcecode">
+</script>
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
+
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
+
+
 <script defer src="wp-content/themes/clove-child/js/style.js"></script>
+
+
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.defer=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58837352-1', 'auto');
+  ga('send', 'pageview');
+  /*Facebook Pixel Code */
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '400629990135976');
+  fbq('track', 'PageView');
+  fbq('track', 'Lead');
+ /* End Facebook Pixel Code*/
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-958029923');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
+<script async>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-58837352-1');
+</script>
+    <!--stories-->
+    <script type="text/javascript">
+    players = new Array();
+
+    function onYouTubeIframeAPIReady() {
+        var temp = $("iframe.yt_players");
+        for (var i = 0; i < temp.length; i++) {
+            var t = new YT.Player($(temp[i]).attr('id'), {
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+            players.push(t);
+        }
+    }
+    onYouTubeIframeAPIReady();
+
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING) {
+            var temp = event.target.getVideoUrl();
+            var tempPlayers = $("iframe.yt_players");
+            for (var i = 0; i < players.length; i++) {
+                if (players[i].getVideoUrl() != temp) 
+                    players[i].stopVideo();
+            }
+        }
+    }
+</script>
+
+
 
 <script>
 function openCity(evt, cityName) {
@@ -1301,6 +1239,73 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 
+</script>
+
+<script>
+        function initComparisons() {
+            var x, i;
+            x = document.getElementsByClassName("img-comp-overlay");
+            for (i = 0; i < x.length; i++) {
+                
+                compareImages(x[i]);
+            }
+
+            function compareImages(img) {
+                var slider, img, clicked = 0,
+                    w, h;
+                w = img.offsetWidth;
+                h = img.offsetHeight;
+                img.style.width = (w / 2) + "px";
+                /*create slider:*/
+                slider = document.createElement("img");
+                slider.setAttribute("class", "img-comp-slider");
+                slider.setAttribute("src","slider.png")
+
+                /*insert slider*/
+                img.parentElement.insertBefore(slider, img);
+                slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
+                slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
+                slider.addEventListener("mousedown", slideReady);
+                window.addEventListener("mouseup", slideFinish);
+                slider.addEventListener("touchstart", slideReady);
+                window.addEventListener("touchend", slideFinish);
+
+                function slideReady(e) {
+                    e.preventDefault();
+                    clicked = 1;
+                    window.addEventListener("mousemove", slideMove);
+                    window.addEventListener("touchmove", slideMove);
+                }
+
+                function slideFinish() {
+                    clicked = 0;
+                }
+
+                function slideMove(e) {
+                    var pos;
+                    if (clicked == 0) return false;
+                    pos = getCursorPos(e)
+                    if (pos < 0) pos = 0;
+                    if (pos > w) pos = w;
+                    slide(pos);
+                }
+
+                function getCursorPos(e) {
+                    var a, x = 0;
+                    e = (e.changedTouches) ? e.changedTouches[0] : e;
+                    a = img.getBoundingClientRect();
+                    x = e.pageX - a.left;
+                    x = x - window.pageXOffset;
+                    return x;
+                }
+
+                function slide(x) {
+                    img.style.width = x + "px";
+                    slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
+                }
+            }
+        }
+        
 </script>
 
 <script>
