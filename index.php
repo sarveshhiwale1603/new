@@ -16,39 +16,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <title>Best Dentists and Dental Clinics Near You | Largest Dental Chain India	</title>
 <meta name="description" content="India&#039;s Largest Dental Chain. Best Dentists and Dental Clinics in Delhi NCR, Jaipur, Chandigarh, Ahmedabad, Hyderabad, Chennai, Bangalore and pan India with a team of India’s best dentists. Find best dentist near me."/>
 
-<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
-<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="preload" as="script" href="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></link>
+<link  rel="preload" as="script" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></link>
+<link  rel="preload" as="script" type="text/javascript" href="http://www.youtube.com/player_api"></link>
 
-<link rel="shortcut icon" href="wp-content\themes\clove\images\favicon.png" type="image/x-icon"> -->
+<link rel="shortcut icon" href="wp-content\themes\clove\images\favicon.png" type="image/x-icon">
 
 
-<!-- <link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="profile" href="https://gmpg.org/xfn/11">
 <link rel="pingback" href="xmlrpc.php"> 
 <link rel="stylesheet" href="style-new.css">
 <link rel="stylesheet" href="css/carousel.min.css">
-<link rel="stylesheet" href="css/styleindex.css"> -->
+<link rel="stylesheet" href="css/styleindex.css">
 
-<!-- <link href="wp-content/themes/clove/css/font-awesome.css" rel="stylesheet"> -->
-<!-- <link href="wp-content/themes/clove/css/fa.css" rel="stylesheet"> -->
+<link href="wp-content/themes/clove/css/font-awesome.css" rel="stylesheet">
+<link href="wp-content/themes/clove/css/fa.css" rel="stylesheet">
 
 <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-<!-- <script src="js/jsddd.js"></script> -->
+<link   rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></link>
+<link   rel="preload" as="script" href="js/jsddd.js"></link>
 
 
 <!-- <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style1.css" type="text/css"> -->
-<!-- <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css"> -->
+<link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css">
 	
-<!-- <script defer src="wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
-<script defer src="wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script> -->
+<script defer src="wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
+<script defer src="wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script>
 <script async id="sourcecode">
 </script>
-<!-- <script defer async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
 
-<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script> -->
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
 
 <link rel="canonical" href="index.html" />
 <meta property="og:locale" content="en_US" />
@@ -1119,7 +1119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <button class="button-50" onclick="openCity(event, 'hinjewadi')">HINJEWADI</button> 
   
 </div>
-<!-- 
+
 <div id="akurdi" class="tabcontent" style="display: none;">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.283122167295!2d73.77923291437065!3d18.651286970032448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9daea121625%3A0xca107f7a00fa4ca4!2sMokashi%20Dental%20Clinic%2C%20Akurdi!5e0!3m2!1sen!2sin!4v1621339077398!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
@@ -1140,7 +1140,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="hinjewadi" class="tabcontent" style="display: none;"> 
    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.514356516996!2d73.74008!3d18.595920900000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bbddeb629c77%3A0x66a7aa789b024d7d!2sGo-Best%20Dentist%2C%20Hinjewadi!5e0!3m2!1sen!2sin!4v1656677144789!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-</div> -->
+</div>
  
 					</div>	
          
@@ -1279,12 +1279,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Call Us -->
     <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
 
-<!-- <script defer src="wp-content/themes/clove/js/waypoints.min.js" ></script>
+<script defer src="wp-content/themes/clove/js/waypoints.min.js" ></script>
 <script defer src="wp-content/themes/clove/js/jquery.counterup.min.js" ></script>
 <script defer src="wp-content/themes/clove/js/jquery.flexslider.js" ></script>
-<script defer src="wp-content/themes/clove/js/scripts.js" ></script> -->
+<script defer src="wp-content/themes/clove/js/scripts.js" ></script>
 
-<!-- <script defer src="wp-content/themes/clove-child/js/style.js"></script> -->
+<script defer src="wp-content/themes/clove-child/js/style.js"></script>
 
 <script>
 function openCity(evt, cityName) {
