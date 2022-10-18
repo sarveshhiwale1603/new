@@ -17,9 +17,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="India&#039;s Largest Dental Chain. Best Dentists and Dental Clinics in Delhi NCR, Jaipur, Chandigarh, Ahmedabad, Hyderabad, Chennai, Bangalore and pan India with a team of India’s best dentists. Find best dentist near me."/>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="preload" as="script" href="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></link>
-<link  rel="preload" as="script" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></link>
-<link  rel="preload" as="script" type="text/javascript" href="http://www.youtube.com/player_api"></link>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
 
 <link rel="shortcut icon" href="wp-content\themes\clove\images\favicon.png" type="image/x-icon">
 
@@ -35,20 +35,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
-<link   rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></link>
-<link   rel="preload" as="script" href="js/jsddd.js"></link>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/jsddd.js"></script>
 
 
 <!-- <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style1.css" type="text/css"> -->
 <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css">
 	
-<link  rel="preload" as="script" defer src="wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></link>
-<link  rel="preload" as="script" defer src="wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></link>
-<link  rel="preload" as="script" async id="sourcecode">
-</link>
-<link  rel="preload" as="script" defer async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></link>
+<script defer src="wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
+<script defer src="wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script>
+<script async id="sourcecode">
+</script>
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
 
-<link  rel="preload" as="script" defer async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></link>
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
 
 <link rel="canonical" href="index.html" />
 <meta property="og:locale" content="en_US" />
