@@ -39,8 +39,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="js/jsddd.js"></script>
 
 
-<link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style1.css" type="text/css">
-<!-- <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css"> -->
+<!-- <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style1.css" type="text/css"> -->
+<link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css">
 	
 <!-- <script defer src="wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
 <script defer src="wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script> -->
