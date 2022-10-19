@@ -457,63 +457,63 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h1 data-appear-animation="fadeInDown" data-appear-animation-delay="10">SYMPTOMS &amp; TREATMENTS</h1>
     <ul>
       <li><a href="Dental-Cavity-Fillings.php">
-          <div class="treat-imgbox"><img data-src="wp-content/themes/clove-child/images/filling-icon.webp"
+          <div class="treat-imgbox"><img src="wp-content/themes/clove-child/images/filling-icon.webp"
               alt="nearest dental clinic" width="100" height="100"></div>
           <div class="treat-txtbox">Dental Fillings</div>
         </a></li>
       <li><a href="Root-Canal-Treatment.php">
-          <div class="treat-imgbox"><img data-src="wp-content/themes/clove-child/images/root-canal-icon.webp"
+          <div class="treat-imgbox"><img src="wp-content/themes/clove-child/images/root-canal-icon.webp"
               alt="nearest dental hospital" width="100" height="100"></div>
           <div class="treat-txtbox">Root Canal Treatment</div>
         </a></li>
       <li><a href="Wisdom-Tooth-Extraction.php">
-          <div class="treat-imgbox"><img data-src="wp-content/themes/clove-child/images/teeth-removal-icon.webp"
+          <div class="treat-imgbox"><img src="wp-content/themes/clove-child/images/teeth-removal-icon.webp"
               alt="near by dental clinic" width="100" height="100"></div>
           <div class="treat-txtbox">Wisdom Teeth Removal</div>
         </a></li>
       <li><a href="Braces-Orthodontic Treatment.php">
-          <div class="treat-imgbox"><img data-src="wp-content/themes/clove-child/images/braces-aligners-icon.webp"
+          <div class="treat-imgbox"><img src="wp-content/themes/clove-child/images/braces-aligners-icon.webp"
               alt="best dental clinic near me" width="100" height="100"></div>
           <div class="treat-txtbox">Braces &amp; Aligners</div>
         </a></li>
       <li><a href="Dental-Implants.php">
-          <div class="treat-imgbox"><img data-src="wp-content/themes/clove-child/images/dental-implant-icon.webp"
+          <div class="treat-imgbox"><img src="wp-content/themes/clove-child/images/dental-implant-icon.webp"
               alt="dental hospital near me" width="100" height="100"></div>
           <div class="treat-txtbox">Dental Implants</div>
         </a></li>
       <li><a href="Flexible-Partial-Complete-Denture.php">
-          <div class="treat-imgbox"><img data-src="wp-content/themes/clove-child/images/dentures-icon.webp"
+          <div class="treat-imgbox"><img src="wp-content/themes/clove-child/images/dentures-icon.webp"
               alt="dentist in greater noida" width="100" height="100"></div>
           <div class="treat-txtbox">Dentures</div>
         </a></li>
       <li><a href="Crown-and-Bridges.php">
-          <div class="treat-imgbox"><img data-src="wp-content/themes/clove-child/images/crowns-bridges-icon.webp"
+          <div class="treat-imgbox"><img src="wp-content/themes/clove-child/images/crowns-bridges-icon.webp"
               alt="best dental clinic in delhi" width="100" height="100"></div>
           <div class="treat-txtbox">Bridges &amp; Crowns</div>
         </a></li>
       <li><a href="Children-Pediatric-Dentistry.php">
-          <div class="treat-imgbox"><img data-src="wp-content/themes/clove-child/images/childrens-dentistry-icon.webp"
+          <div class="treat-imgbox"><img src="wp-content/themes/clove-child/images/childrens-dentistry-icon.webp"
               alt="best dentist in south delhi" width="100" height="100"></div>
           <div class="treat-txtbox">Kids Dentistry</div>
         </a></li>
       <li><a href="Oral-Maxillofacial-Surgery.php">
-          <div class="treat-imgbox"><img data-src="wp-content/themes/clove-child/images/smile-makeover-icon.webp"
+          <div class="treat-imgbox"><img src="wp-content/themes/clove-child/images/smile-makeover-icon.webp"
               alt="best dentist" width="100" height="100"></div>
           <div class="treat-txtbox">Smile Makeover</div>
         </a></li>
       <li class="mobile-none"><a href="Teeth-Whitening.php">
-          <div class="treat-imgbox"><img data-src="wp-content/themes/clove-child/images/teeth-whitening-icon.webp"
+          <div class="treat-imgbox"><img src="wp-content/themes/clove-child/images/teeth-whitening-icon.webp"
               alt="best dentist in delhi" width="100" height="100"></div>
           <div class="treat-txtbox">Teeth Whitening</div>
         </a></li>
 
       <li class="mobile-none"><a href="Full-Mouth-Rehabilitation.php">
-          <div class="treat-imgbox"><img data-src="wp-content/themes/clove-child/images/mouth-ulcers-icon.webp"
+          <div class="treat-imgbox"><img src="wp-content/themes/clove-child/images/mouth-ulcers-icon.webp"
               alt="best dentist" width="100" height="100"></div>
           <div class="treat-txtbox">Mouth Ulcers</div>
         </a></li>
       <li><a href="treatment.php">
-          <div class="treat-imgbox"><img data-src="wp-content/themes/clove-child/images/read-more-icon.webp"
+          <div class="treat-imgbox"><img src="wp-content/themes/clove-child/images/read-more-icon.webp"
               alt="best dentist" width="100" height="100"></div>
           <div class="treat-txtbox">View More</div>
         </a></li>
@@ -530,10 +530,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="col-xl-6 mt-3 " id="sliderCompImg">
                     <div class="img-comp-container" >
                         <div class="img-comp-img">
-                             <img style="display: block; vertical-align: middle;" class="imgComp" data-src="wp-content/uploads/2020/10/safety1-min.webp" width="500px" height="500px">
+                             <img style="display: block; vertical-align: middle;" class="imgComp" src="wp-content/uploads/2020/10/safety1-min.webp" width="500px" height="500px">
                         </div>
                         <div class="img-comp-img img-comp-overlay">
-                            <img style="display: block; vertical-align: middle;" class="imgComp" data-src="wp-content/uploads/2020/10/safety2-min.webp" width="500px" height="500px">
+                            <img style="display: block; vertical-align: middle;" class="imgComp" src="wp-content/uploads/2020/10/safety2-min.webp" width="500px" height="500px">
                         </div>
                     </div>
                   </div>
@@ -584,7 +584,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <h2 class=" offset-xl-2">Know More About Our Success Stories</h2>
                 <div class="row">
                     <div class="col-lg-2 offset-lg-1 col-12 my-lg-0">
-                        <img data-src="images/ISO-CERTIFIED-logo.webp" alt="ISO" class="img-fluid image2">
+                        <img src="images/ISO-CERTIFIED-logo.webp" alt="ISO" class="img-fluid image2">
                     </div>
                     <div class="col-lg-2 col-sm-6 col-5 shiva">
                         <div id="shiva"><span class="counter count">30,000</span> <span class="plus">+</span><p>Happy Patients</p></div>
@@ -661,7 +661,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="why text-center container-fluid">
                             <div class="row">
                                 <div class="col-12">
-                                    <img data-src="wp-content/themes/clove-child/images/AFFORDABLE-DENTISTS.webp" alt="Why choose us"
+                                    <img src="wp-content/themes/clove-child/images/AFFORDABLE-DENTISTS.webp" alt="Why choose us"
                                         class="img-fluid p-xl-2">
                                 </div>
                                 <div class="col-12 pt-2 px-3">
@@ -675,7 +675,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="why text-center">
                             <div class="row">
                                 <div class="col-12">
-                                    <img data-src="wp-content/themes/clove-child/images/ISO-CERTIFIED.webp" alt="Why choose us" class="img-fluid p-xl-2">
+                                    <img src="wp-content/themes/clove-child/images/ISO-CERTIFIED.webp" alt="Why choose us" class="img-fluid p-xl-2">
                                 </div>
                                 <div class="col-12 pl-4 pr-4 pt-2">
                                     <h5>ISO CERTIFIED</h5>
@@ -688,7 +688,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="why text-center">
                             <div class="row">
                                 <div class="col-12 ">
-                                    <img data-src="wp-content/themes/clove-child/images/Advanced-Technology1.webp" alt="Why choose us"
+                                    <img src="wp-content/themes/clove-child/images/Advanced-Technology1.webp" alt="Why choose us"
                                         class="img-fluid p-xl-2">
                                 </div>
                                 <div class="col-12 px-3 pt-2">
@@ -702,7 +702,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="why text-center">
                             <div class="row">
                                 <div class="col-12 ">
-                                    <img data-src="wp-content/themes/clove-child/images/SAFETY-&-QUALITY.webp" alt="Why choose us" class="img-fluid p-xl-2">
+                                    <img src="wp-content/themes/clove-child/images/SAFETY-&-QUALITY.webp" alt="Why choose us" class="img-fluid p-xl-2">
                                 </div>
                                 <div class="col-12 px-3 pt-2">
                                     <h5>SAFETY & QUALITY</h5>
@@ -727,7 +727,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="carousel-inner" >
                   <div class="carousel-item item active">
                     <div class="img-area text-center">
-                      <img data-src="wp-content/themes/clove-child/images/Irfan-M.webp" class="d-block w-100 " alt="...">
+                      <img src="wp-content/themes/clove-child/images/Irfan-M.webp" class="d-block w-100 " alt="...">
                     </div>
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer"><i>Irfan M</i></h3>
@@ -741,7 +741,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                   <div class="carousel-item item">
                     <div class=" img-area text-center">
-                      <img data-src="wp-content/themes/clove-child/images/Karishma-A.webp" class="d-block w-100" alt="...">
+                      <img src="wp-content/themes/clove-child/images/Karishma-A.webp" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer" style="padding:5px;"><i> Karishma A</i></h3>
@@ -753,7 +753,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                   <div class="carousel-item item">
                     <div class="img-area">
-                      <img data-src="wp-content/themes/clove-child/images/Rafiq-M.webp" class="d-block w-100" alt="...">
+                      <img src="wp-content/themes/clove-child/images/Rafiq-M.webp" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer"><i> Rafiq M</i></h3>
@@ -768,7 +768,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   
                   <div class="carousel-item item">
                     <div class="img-area">
-                      <img data-src="wp-content/themes/clove-child/images/Rahul-K.webp" class="d-block w-100" alt="...">
+                      <img src="wp-content/themes/clove-child/images/Rahul-K.webp" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-caption  d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer">Rahul K</h3>
@@ -782,7 +782,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                   <div class="carousel-item item">
                     <div class="img-area">
-                      <img data-src="wp-content/themes/clove-child/images/Samir-S.webp" class="d-block w-100" alt="...">
+                      <img src="wp-content/themes/clove-child/images/Samir-S.webp" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-caption  d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer"><i> Samir S</i></h3>
@@ -794,7 +794,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                   <div class="carousel-item item">
                     <div class="img-area">
-                      <img data-src="wp-content/themes/clove-child/images/Shainaj-M.webp" class="d-block w-100" alt="...">
+                      <img src="wp-content/themes/clove-child/images/Shainaj-M.webp" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important"> 
                       <h3 class="blockquote-footer"><i> Shainaj M</i></h3>
@@ -807,7 +807,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                   <div class="carousel-item item">
                     <div class="img-area">
-                      <img data-src="wp-content/themes/clove-child/images/Shama-M.webp" class="d-block w-100" alt="...">
+                      <img src="wp-content/themes/clove-child/images/Shama-M.webp" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer"><i>  Shama M</i></h3>
@@ -820,7 +820,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                   <div class="carousel-item item">
                     <div class="img-area">
-                      <img data-src="wp-content/themes/clove-child/images/Shekhar-M.webp" class="d-block w-100" alt="...">
+                      <img src="wp-content/themes/clove-child/images/Shekhar-M.webp" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer"><i>Shekhar M</i></h3>
@@ -859,25 +859,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="row ">
                     <div class="col-lg-3 col-sm-6 col-6 my-4" id="hygn">
                         <div class="machine" data-aos="fade-up" data-aos-duration="800">
-                            <img data-src="wp-content/themes/clove-child/images/advT1.webp" alt="" class="img-fluid">
+                            <img src="wp-content/themes/clove-child/images/advT1.webp" alt="" class="img-fluid">
                             <h4 style="fontsize:12px">Rotary Endodontics</h4>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-6 hygn my-4" id="hygn">
                         <div class="machine" data-aos="fade-up" data-aos-duration="1600">
-                            <img data-src="wp-content/themes/clove-child/images/lightcore.webp" alt="" class="img-fluid fluid1" >
+                            <img src="wp-content/themes/clove-child/images/lightcore.webp" alt="" class="img-fluid fluid1" >
                             <h4>Light Cure </h4>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-6 hygn d-sm-flex my-4" id="hygn">
                         <div class="machine" data-aos="fade-up" data-aos-duration="2400">
-                            <img data-src="wp-content/themes/clove-child/images/advT3.webp" alt="" class="img-fluid">
+                            <img src="wp-content/themes/clove-child/images/advT3.webp" alt="" class="img-fluid">
                             <h4>CAD CAM & Zirconia </h4>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-6 hygn d-sm-flex my-4" id="hygn">
                         <div class="machine" data-aos="fade-up" data-aos-duration="3000">
-                            <img data-src="wp-content/themes/clove-child/images/advT4.webp" alt="" class="img-fluid">
+                            <img src="wp-content/themes/clove-child/images/advT4.webp" alt="" class="img-fluid">
                             <h4>Ultrasonic Cleaning </h4>
                         </div>
                     </div>
@@ -913,7 +913,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class=" hygines" data-aos="fade-up" data-aos-duration="2000">
                             <div class="row">
                                 <div class="col-lg-6 ">
-                                    <img data-src="wp-content/themes/clove-child/images/hygiene1.webp" alt="hygiene1" class="img-fluid">
+                                    <img src="wp-content/themes/clove-child/images/hygiene1.webp" alt="hygiene1" class="img-fluid">
 
                                     <h4>DISINFECTION</h4>
                                 </div>
@@ -930,7 +930,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="hygines" data-aos="fade-up" data-aos-duration="3000">
                             <div class="row">
                                 <div class="col-lg-6 size">
-                                    <img data-src="wp-content/themes/clove-child/images/hygiene1_img.webp" alt="hygiene1" class="img-fluid">
+                                    <img src="wp-content/themes/clove-child/images/hygiene1_img.webp" alt="hygiene1" class="img-fluid">
 
                                     <h4>ULTRASONIC CLEANING DEVICES</h4>
                                 </div>
@@ -959,7 +959,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000" style="background:white">
                             <div class="row">
                                 <div class="col-lg-3">
-                                    <img data-src="images/google.webp" style="max-width:initial!important;">
+                                    <img src="images/google.webp" style="max-width:initial!important;">
                                 </div>
                                 <div class="col-lg-9">
                                     <h5>Google</h5>
@@ -979,7 +979,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="box mb-3 justdial-box" data-aos="fade-up" data-aos-duration="2000" style="background:white">
                             <div class="row">
                                 <div class="col-lg-3">
-                                    <img data-src="images/jd.png" style="max-width:initial!important;">
+                                    <img src="images/jd.png" style="max-width:initial!important;">
                                 </div>
                                 <div class="col-lg-9">
                                     <h5>Just Dial</h5>
@@ -999,7 +999,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="box mb-3 practo-box" data-aos="fade-up" data-aos-duration="2000" style="background:white"> 
                             <div class="row">
                                 <div class="col-lg-3">
-                                    <img data-src="images/practo.png" style="max-width:initial!important;">
+                                    <img src="images/practo.png" style="max-width:initial!important;">
                                 </div>
                                 <div class="col-lg-9">
                                     <h5>Practo</h5>
@@ -1038,7 +1038,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           ?>	
       <div class="col-lg-3 col-6 col-sm-6 m-0 p-1">
         <div class="case_study_img">
-          <img data-src="admin/pages/forms/caseimage/<?php echo $d['banner']; ?>" alt="case_study_img" class="img-fluid img-fluid-set" style="height:11rem !important;width:100% !important">
+          <img src="admin/pages/forms/caseimage/<?php echo $d['banner']; ?>" alt="case_study_img" class="img-fluid img-fluid-set" style="height:11rem !important;width:100% !important">
         </div>
         <div class="patient_speak_videos">
         <div class="iframe-footer"><span class="clinic-location"><?php echo $d['title']; ?></span><span class="video-time"></span></div></div>
@@ -1070,7 +1070,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <a href="#.">Get Offer</a>
                             </div>
                             <div class="cta-whitebox ml-auto">
-                                <h2><img class="smile" data-src="wp-content/themes/clove-child/images/smile.webp" alt="image"> Smile At <span
+                                <h2><img class="smile" src="wp-content/themes/clove-child/images/smile.webp" alt="image"> Smile At <span
                                         class="hylyt">Affordable</span> Fees !</h2>
                                 <p style="font-size:15px;margin-bottom:1rem !important;">Free Check Up &amp; Upto 50% Discount On All Dental Treatments | Free Consultation |
                                     Root Canal 50% Flat Discount</p>
@@ -1158,43 +1158,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script defer src="wp-content/themes/clove-child/js/style.js"></script>
 
 
-<script>
-  ( function() { 'use strict';
-  let images = document.querySelectorAll('img[data-src]');
-              
-  document.addEventListener('DOMContentLoaded', onReady);
-  function onReady() {
-    // Show above-the-fold images first
-    showImagesOnView();
 
-    // scroll listener
-    window.addEventListener( 'scroll', showImagesOnView, false );
-  }
-  
-  // Show the image if reached on viewport
-  function showImagesOnView( e ) {
-    
-    for( let i of images ) {
-      if( i.getAttribute('src') ) { continue; } // SKIP if already displayed
-      
-      // Compare the position of image and scroll
-      let bounding = i.getBoundingClientRect();
-      let isOnView = bounding.top >= 0 &&
-      bounding.left >= 0 &&
-      bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-      bounding.right <= (window.innerWidth || document.documentElement.clientWidth);
-      
-      if( isOnView ) {
-        i.setAttribute( 'src', i.dataset.src );
-        if( i.getAttribute('srcset') ) {
-          i.setAttribute( 'srcset', i.dataset.srcset );
-        }
-      }
-    }
-  }
-              
-})();
-</script>
 
 
 <script>
