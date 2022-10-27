@@ -1,0 +1,196 @@
+.centerImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* TREATMENT */
+.treatments {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #452c20 !important;
+  font-family: "Raleway", sans-serif;
+  padding-top: 20px;
+  text-decoration: none;
+}
+.treatments:hover .tratmentTitle {
+  text-decoration: underline;
+}
+
+.treatmentsContainer {
+  width: 16.6666%;
+  min-height: 200px;
+  float: left;
+  padding: 25px 5px 0;
+  text-align: center;
+  border-bottom: 1px solid #ebebeb;
+  position: relative;
+  border-right: 1px solid #ebebeb;
+}
+
+.treatmentHeading {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 50px 0px;
+  font-weight: 700;
+}
+
+/* IMAGE COMPARISON */
+
+* {
+  box-sizing: border-box;
+}
+
+.img-comp-container {
+  position: relative;
+  height: 500px;
+  /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-img {
+  display: block;
+  vertical-align: middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  cursor: col-resize;
+  line-height: 30px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  font-size: 40px;
+  z-index: 1;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .imgComp {
+    width: 350px !important;
+    height: 350px !important;
+  }
+  .img-comp-container {
+    height: 350px !important;
+    cursor: col-resize !important;
+  }
+}
+
+/* SLIDER */
+
+.slider-sec h5 {
+    color: #fe235b;
+    font-size: 20px;
+}
+.slider-sec h2 {
+    color: #0f094f;
+    font-size: 40px;
+}
+
+.slider-sec p {
+    font-size: 17px;
+    color: #6d7a8c;
+    line-height: 30px;
+}
+
+.slider-sec .row .point {
+    background: #0f094f;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.slider-sec .btn {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: context-menu;
+    display: block;
+    padding: 10px;
+}
+
+/* KNOW MORE */
+.knowmore-sec {
+    background: url(images/bg_1.webp) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.knowmore-sec .shiva {
+    margin: 0 10px;
+    padding: 0;
+}
+
+.knowmore-sec .count {
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    font-family: 'Anton';
+    letter-spacing: 1.5px;
+}
+
+.knowmore-sec .plus {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 800;
+    display: inline-block;
+}
+.knowmore-sec p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.knowmore-sec h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+/* PATIENT SPEAK */
+
+.heading h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 20px;
+    font-weight: 700;
+}
+
+.patient_speak_videos .item {
+    width: 25%;
+    float: left;
+}
+
+.item {
+    height: 40vh !important;
+    min-height: 350px;
+}
+
+.patient_speak_videos .video-box {
+    position: relative;
+    width: fit-content;
+}
+
+.btn.view_more {
+    margin-top: 50px;
+}
+
+.view_more {
+    background: #f00 !important;
+    color:#fff !important;
+}

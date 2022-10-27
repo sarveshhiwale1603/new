@@ -35,7 +35,7 @@
 </div>
 <div class="head-outer">
 <div class="header-main"><div class="orange helpme overlay animateHeader aos-init aos-animate" id="myModal" >
-    <div class="container positionRel"> 
+    <div class="container positionRel">
         <div class="row">
             <div class="col-lg-5 col-md-6">
                 <span class="cp-info-bar-msg" style="line-height: 1.8;font-size:14px">Leave your mobile number to get a call back.</span>
