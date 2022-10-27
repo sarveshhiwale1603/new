@@ -232,14 +232,14 @@ include("include/config.php") ?>
               $data = mysqli_query($conn, $sql);
               foreach($data as $d){
           ?>
-                        <div class="item item1 ">
+                        <!-- <div class="item item1 ">
                             <div class="video-box">
                                 <iframe width="260" height="320" id="<?php echo $d['id']; ?>"
                                     src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0"
                                     class="iframe-video yt_players" title="YouTube video player" frameborder="0"
                                     allowfullscreen></iframe>
                             </div>
-                        </div>
+                        </div> -->
                         <?php } ?>
                         <div class="clearfix"></div>
                         <div style="text-align:center;">
