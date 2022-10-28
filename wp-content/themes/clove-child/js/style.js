@@ -1,27 +1,27 @@
 //video popup
 (function($){
-// var y_src = "https://www.youtube.com/embed/";
+var y_src = "https://www.youtube.com/embed/";
 
-// $('.banner_play_btn').click(function(){ 
-// $('.patient_speak_modal').addClass('in');
-// $('.patient_speak_modal iframe').attr('src', 'https://www.youtube.com/embed/Hv_u3dpRECM');
-// });
+$('.banner_play_btn').click(function(){ 
+$('.patient_speak_modal').addClass('in');
+$('.patient_speak_modal iframe').attr('src', 'https://www.youtube.com/embed/Hv_u3dpRECM');
+});
 
-// $('.patient_speak_videos .play_btn').click(function(){
-//   var v_id = $(this).attr('data-src');
-//  $('.patient_speak_modal').addClass('in');
-//  $('.patient_speak_modal iframe').attr('src', y_src+v_id+'?autoplay=1');
-// });
-// $('.patient_speak_modal .close_btn').click(function(){
-//   $('.patient_speak_modal').removeClass('in');
-//   $('#patient_speak_modal iframe').attr('src', y_src);
-// });
-// $('.patient_speak_modal').click(function(e){
-//  if(e.target.id == 'patient_speak_modal'){
-//   $('.patient_speak_modal').removeClass('in');
-//   $('#patient_speak_modal iframe').attr('src', y_src);
-// }
-// });
+$('.patient_speak_videos .play_btn').click(function(){
+  var v_id = $(this).attr('data-src');
+ $('.patient_speak_modal').addClass('in');
+ $('.patient_speak_modal iframe').attr('src', y_src+v_id+'?autoplay=1');
+});
+$('.patient_speak_modal .close_btn').click(function(){
+  $('.patient_speak_modal').removeClass('in');
+  $('#patient_speak_modal iframe').attr('src', y_src);
+});
+$('.patient_speak_modal').click(function(e){
+ if(e.target.id == 'patient_speak_modal'){
+  $('.patient_speak_modal').removeClass('in');
+  $('#patient_speak_modal iframe').attr('src', y_src);
+}
+});
 
 $('.banner-form').click(function(){
 //$('#frm_type').val('value','1000');
