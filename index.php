@@ -379,7 +379,7 @@ include("include/config.php") ?>
         </section>
 
         <!--review-->
-        <section class="review pt-5 pb-5" style="background-color: aliceblue;">
+        <!-- <section class="review pt-5 pb-5" style="background-color: aliceblue;">
             <div class="container text-center">
                 <h5 style="color:#fe235b;">REVIEWS</h5>
                 <h2>What Patients Speak</h2>
@@ -547,7 +547,7 @@ include("include/config.php") ?>
 
 
             </div>
-        </section>
+        </section> -->
         <!--review close-->
 
         <!-- equipments-->
