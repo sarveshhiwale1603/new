@@ -280,7 +280,7 @@ include("include/config.php") ?>
 
 
         <!--video-->
-        <section class="patient_speaks">
+        <!-- <section class="patient_speaks">
             <div class="container">
                 <div class="heading">
                     <h2>Patient Speaks</h2>
@@ -307,7 +307,7 @@ include("include/config.php") ?>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--video-->
 
 
