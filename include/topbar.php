@@ -62,7 +62,7 @@
                 <span class="cp-info-bar-msg"><i class="fa fa-phone"></i> <a href="tel:+917264889986" style="color: #fff;font-size:13px">+91 72648 89986</a></span>
             </div>
         </div>
-        <a class="close close2" data-dismiss="modal">x</a>
+        <a class="close close2" style="margin-right:200px;" data-dismiss="modal">x</a>
 
 
 </div>

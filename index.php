@@ -21,7 +21,13 @@ include("include/config.php") ?>
     <link rel="stylesheet" href="stylenew.css">
     <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css">
 
-
+    <style>
+    @media (max-width: 768px) {
+        .close2 {
+            margin-right: 20px !important;
+        }
+    }
+    </style>
 
 </head>
 
@@ -864,7 +870,6 @@ include("include/config.php") ?>
 
 
     <?php include("include/footer1.php") ?>
-    <?php include('include/sidebar.php')?>
 
 
 
@@ -873,6 +878,10 @@ include("include/config.php") ?>
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/jsddd.js"></script>
+
+
+
+    <!-- <script defer src="wp-content/themes/clove-child/js/style.js"></script> -->
 
 
 
@@ -990,6 +999,9 @@ include("include/config.php") ?>
 
     <script>
     initComparisons();
+    </script>
+    <script>
+    $('.animateHeader').delay(10000).fadeIn('1000');
     </script>
 
     <script>
