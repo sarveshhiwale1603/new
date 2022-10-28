@@ -26,7 +26,7 @@ include("include/config.php") ?>
 </head>
 
 <body>
-<?php include("include/topbar.php"); ?>
+    <?php include("include/topbar.php"); ?>
 
     <header>
 
@@ -868,8 +868,14 @@ include("include/config.php") ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-<script  src="wp-content/themes/clove-child/js/style.js"></script>
-<script  src="wp-content\themes\clove\js\jquery.js"></script>
+
+
+    <script defer src="wp-content/themes/clove-child/js/style.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/jsddd.js"></script>
+
 
 
 
@@ -990,41 +996,41 @@ include("include/config.php") ?>
     initComparisons();
     </script>
 
-<script>    
-jQuery(document).ready(function() {	
-	jQuery( ".appointment_capchacode #capCode" ).click(function() {
-		jQuery( ".enquiry-in" ).addClass('padd');
-	});
+    <script>
+    jQuery(document).ready(function() {
+        jQuery(".appointment_capchacode #capCode").click(function() {
+            jQuery(".enquiry-in").addClass('padd');
+        });
 
-	jQuery(".board-of-dir li a").click(function() {
-		jQuery(".doctor-overlay").addClass("active");
-		jQuery("body").addClass("no-scroll");
-	});
-	jQuery(".board-of-company li a").click(function() {
-		jQuery(".doctor-overlay").addClass("active");
-		jQuery("body").addClass("no-scroll");
-	});
-	
-	
-	
+        jQuery(".board-of-dir li a").click(function() {
+            jQuery(".doctor-overlay").addClass("active");
+            jQuery("body").addClass("no-scroll");
+        });
+        jQuery(".board-of-company li a").click(function() {
+            jQuery(".doctor-overlay").addClass("active");
+            jQuery("body").addClass("no-scroll");
+        });
 
-var stickyNavTop = jQuery('.head-outer').offset().top;
-var stickyNav = function(){
-var scrollTop = jQuery(window).scrollTop();
-if (scrollTop > stickyNavTop) { 
-    jQuery('.head-outer').addClass('sticky');
-    jQuery('.side-menu').addClass('sticky');
-} else {
-    jQuery('.head-outer').removeClass('sticky sticky-logo');
-    jQuery('.side-menu').removeClass('sticky'); 
-}
-};
-stickyNav();
-jQuery(window).scroll(function() {
-  stickyNav();
-});
-});
-</script> 
+
+
+
+        var stickyNavTop = jQuery('.head-outer').offset().top;
+        var stickyNav = function() {
+            var scrollTop = jQuery(window).scrollTop();
+            if (scrollTop > stickyNavTop) {
+                jQuery('.head-outer').addClass('sticky');
+                jQuery('.side-menu').addClass('sticky');
+            } else {
+                jQuery('.head-outer').removeClass('sticky sticky-logo');
+                jQuery('.side-menu').removeClass('sticky');
+            }
+        };
+        stickyNav();
+        jQuery(window).scroll(function() {
+            stickyNav();
+        });
+    });
+    </script>
 
 </body>
 
