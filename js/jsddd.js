@@ -127,3 +127,16 @@ $('.banner-form').click(function(){
       });
    }(jQuery));
 
+   (function($){
+      $(document).ready(function(){
+      
+         if ($(window).width() < 767) {
+            $(".toggle-mbl h4").click(function(){
+            $(this).parent().siblings().find('div').slideUp("slow");
+            $(this).parent().siblings().find('h4').removeClass("active");
+            $(this).siblings("div").slideToggle("slow");
+            $(this).toggleClass("active");
+            });
+         }
+      });
+      })(jQuery);

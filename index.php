@@ -863,7 +863,9 @@ include("include/config.php") ?>
 
 
 
-<?php include("include/footer.php") ?>
+    <?php include("include/footer1.php") ?>
+    <?php include('include/sidebar.php')?>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -871,32 +873,6 @@ include("include/config.php") ?>
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/jsddd.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
-<script defer src="wp-content/themes/clove/js/waypoints.min.js" ></script>
-<script defer src="wp-content/themes/clove/js/jquery.counterup.min.js" ></script>
-<script defer src="wp-content/themes/clove/js/jquery.flexslider.js" ></script>
-<script defer src="wp-content/themes/clove/js/scripts.js" ></script>
-
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
-<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
-<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="js/jsddd.js"></script>
-<script defer src="wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
-<script defer src="wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script>
-<script async id="sourcecode">
-</script>
-<script defer async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
-
-<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
-
-
-<script defer src="wp-content/themes/clove-child/js/style.js"></script>
-
 
 
 

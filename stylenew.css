@@ -1001,23 +1001,32 @@ button:active {
 .close:not(:disabled):not(.disabled) {
   cursor: pointer;
 }
+.close2 {
+    background: white!important;
+    top: 2px!important;
+    right: 2px!important;
+    color: black!important;
+    font-size: 13px!important;
+    width: 27px!important;
+    height: 27px!important;
+    padding-top: 2px !important;
+    margin-right: 200px !important;
+}
 .close {
-  float: right;
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1;
-  color: #000;
-  text-shadow: 0 1px 0 #fff;
-  opacity: 0.5;
-}
-.close2 {
-  background: white !important;
-  top: 2px !important;
-  right: 2px !important;
-  color: black !important;
-  font-size: 13px !important;
-  width: 27px !important;
-  height: 27px !important;
-  padding-top: 4px;
-  margin-right: 20px;
+  color: #fff;
+  text-shadow: 0 1px 0 #186c99;
+  opacity: .9;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  border: 2px solid;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
 }
