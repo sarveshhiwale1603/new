@@ -19,6 +19,7 @@ include("include/config.php") ?>
 
 
     <link rel="stylesheet" href="stylenew.css">
+    <!-- <link rel="stylesheet" href="newhome.css"> -->
     <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css">
 
     <style>
@@ -807,7 +808,7 @@ include("include/config.php") ?>
         <!--offer-->
 
         <!--map-->
-        <!-- <section class="section">
+        <section class="section">
             <div class="container">
                 <h2 class="mb-5 text-center">Our Branch Location</h2>
                 <div class="row pl-0">
@@ -859,7 +860,7 @@ include("include/config.php") ?>
                 </div>
 
             </div>
-        </section> -->
+        </section>
         <!--map-->
 
 
@@ -1045,6 +1046,26 @@ include("include/config.php") ?>
         });
     });
     </script>
+
+<!-- <script>
+  if (window.matchMedia('(max-width: 1024px)').matches)
+{
+  $(document).ready(function(){
+    $('#bookForm').click(function(){
+      $('.phone-btn').css('display','none');
+      $('.chat-bot-launcher-container').css('display','none');
+      $('.sidebar-contact').css('top':'25%','height':'100%');
+    });
+    $('.toggle').click(function(){
+      $('.phone-btn').css('display','block');
+      $('.chat-bot-launcher-container').css('display','block');
+    });
+  });
+}
+</script> -->
+
+<script>(function(w, d) { w.CollectId = "629862db9f8d485e3467b441"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+
 
 </body>
 
