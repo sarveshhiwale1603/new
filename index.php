@@ -273,7 +273,7 @@ include("include/config.php") ?>
 
 
         <!--video-->
-        <section class="patient_speaks">
+        <!-- <section class="patient_speaks">
             <div class="container">
                 <div class="heading">
                     <h2>Patient Speaks</h2>
@@ -298,9 +298,9 @@ include("include/config.php") ?>
                             <a href="testimonials.php" class="btn view_more">View More</a>
                         </div>
                     </div>
-                </div><!-- patients_speaks_wrap end here -->
+                </div>
             </div>
-        </section>
+        </section> -->
         <!--video-->
 
 
@@ -379,7 +379,7 @@ include("include/config.php") ?>
         </section>
 
         <!--review-->
-        <!-- <section class="review pt-5 pb-5" style="background-color: aliceblue;">
+        <section class="review pt-5 pb-5" style="background-color: aliceblue;">
             <div class="container text-center">
                 <h5 style="color:#fe235b;">REVIEWS</h5>
                 <h2>What Patients Speak</h2>
@@ -547,7 +547,7 @@ include("include/config.php") ?>
 
 
             </div>
-        </section> -->
+        </section>
         <!--review close-->
 
         <!-- equipments-->
