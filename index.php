@@ -19,13 +19,14 @@ include("include/config.php") ?>
 
 
     <link rel="stylesheet" href="stylenew.css">
-    <link rel="stylesheet" href="carousel.scss">
+    <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css">
+
 
 
 </head>
 
 <body>
-
+<?php include("include/topbar.php"); ?>
 
     <header>
 
