@@ -868,6 +868,10 @@ include("include/config.php") ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+<script  src="wp-content/themes/clove-child/js/style.js"></script>
+<script  src="wp-content\themes\clove\js\jquery.js"></script>
+
+
 
 
     <script type="text/javascript">
@@ -985,6 +989,42 @@ include("include/config.php") ?>
     <script>
     initComparisons();
     </script>
+
+<script>    
+jQuery(document).ready(function() {	
+	jQuery( ".appointment_capchacode #capCode" ).click(function() {
+		jQuery( ".enquiry-in" ).addClass('padd');
+	});
+
+	jQuery(".board-of-dir li a").click(function() {
+		jQuery(".doctor-overlay").addClass("active");
+		jQuery("body").addClass("no-scroll");
+	});
+	jQuery(".board-of-company li a").click(function() {
+		jQuery(".doctor-overlay").addClass("active");
+		jQuery("body").addClass("no-scroll");
+	});
+	
+	
+	
+
+var stickyNavTop = jQuery('.head-outer').offset().top;
+var stickyNav = function(){
+var scrollTop = jQuery(window).scrollTop();
+if (scrollTop > stickyNavTop) { 
+    jQuery('.head-outer').addClass('sticky');
+    jQuery('.side-menu').addClass('sticky');
+} else {
+    jQuery('.head-outer').removeClass('sticky sticky-logo');
+    jQuery('.side-menu').removeClass('sticky'); 
+}
+};
+stickyNav();
+jQuery(window).scroll(function() {
+  stickyNav();
+});
+});
+</script> 
 
 </body>
 
