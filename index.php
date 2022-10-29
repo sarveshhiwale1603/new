@@ -872,7 +872,7 @@ include("include/config.php") ?>
 
 
     <?php include("include/footer1.php") ?>
-    <?php include("include/sidebar.php") ?>
+    <!-- <?php include("include/sidebar.php") ?> -->
 
     <!-- Call Us -->
     <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
