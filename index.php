@@ -315,40 +315,7 @@ include("include/config.php") ?>
         </section>
         <!--video-->
 
-        <!--video-->
-        <!-- <section class="patient_speaks">
-            <div class="container">
-                <div class="heading">
-                    <h2>Patient Speaks</h2>
-                </div>
-                <div class="">
-                    <div class=" row">
-                        <?php
-              $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 4";
-              $data = mysqli_query($conn, $sql);
-              foreach($data as $d){
-                      ?>
-                        <div class="col-lg-3 col-6 pb-3">
-                            <div class="video-box">
-                                <iframe width="260" height="320" id="<?php echo $d['id']; ?>"
-                                    src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0"
-                                    class="iframe-video yt_players" title="YouTube video player" frameborder="0"
-                                    allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <?php } ?>
-                        <div style="text-align:center;">
-                            <a href="testimonials.php" class="btn view_more">View More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!--video-->
-
-
         <!-- why-choose -->
-
         <section class="why-choose">
             <div class="container text-center">
 
@@ -841,19 +808,22 @@ include("include/config.php") ?>
             </div>
         </div>
         <!--offer-->
-  
+
         <!--map-->
         <section class="section">
             <div class="container">
                 <h2 class="mb-5 text-center">Our Branch Location</h2>
                 <div class="row pl-0">
                     <div class="r tab" id="r1" style="margin-bottom:40px; margin:10px; text-align: center;">
-                        <a target="_blank" href="https://g.page/MokashiDentalClinicAkurdi?share" class="button-50 ">AKURDI
+                        <a target="_blank" href="https://g.page/MokashiDentalClinicAkurdi?share"
+                            class="button-50 ">AKURDI
                             <span>BRANCH</span></a>
-                        <a target="_blank" href="https://g.page/MokashiDentalClinicWakad?share" class="button-50">WAKAD <span>BRANCH</span> </a>
+                        <a target="_blank" href="https://g.page/MokashiDentalClinicWakad?share" class="button-50">WAKAD
+                            <span>BRANCH</span> </a>
                         <a target="_blank" href="https://goo.gl/maps/QbWZv3xYr3r14Rbv5" class="button-50">BANER
                             <span>BRANCH</span></a>
-                        <a target="_blank" href="https://goo.gl/maps/5yxfzu2CbNG1hbNA9" class="button-50"><span>PIMPLE</span>
+                        <a target="_blank" href="https://goo.gl/maps/5yxfzu2CbNG1hbNA9"
+                            class="button-50"><span>PIMPLE</span>
                             SAUDAGAR</a>
                         <a target="_blank" href="https://goo.gl/maps/ami8Kd4R4id1SjsF8" class="button-50">HINJEWADI</a>
 
@@ -1054,9 +1024,6 @@ include("include/config.php") ?>
   });
 }
 </script> -->
-
-    <!-- <script>(function(w, d) { w.CollectId = "629862db9f8d485e3467b441"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script> -->
-
 
 </body>
 
