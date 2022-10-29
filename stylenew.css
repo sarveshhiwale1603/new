@@ -808,6 +808,7 @@ p {
   text-transform: uppercase;
   height: 180px;
   padding-top: 42px;
+  line-height: 30px;
 }
 .offer .ad-price span.rate,
 .ad-price span.rate {

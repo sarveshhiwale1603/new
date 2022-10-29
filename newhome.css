@@ -4128,7 +4128,7 @@ body.header-home .head-outer.sticky {
 .call-back {
     font-size: 14px;
     font-weight: 700;
-    color: #4a4a4a;
+    color: #fff;
     line-height: 20px;
     padding: 5px;
     display: inline-block;
@@ -18018,4 +18018,11 @@ body.header-home .head-outer.sticky {
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
     background-image: none;
+}
+.offer .ad-price a, .ad-price a {
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 5px;
 }

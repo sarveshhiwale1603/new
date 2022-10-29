@@ -8,16 +8,13 @@ include("include/config.php") ?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Best Dentists and Dental Clinics Near You | Largest Dental Chain India	</title>
     <link rel="shortcut icon" href="wp-content\themes\clove\images\favicon.png" type="image/x-icon">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="wp-content/themes/clove/css/fa.css" rel="stylesheet">
-
-
-
     <link rel="stylesheet" href="stylenew.css">
     <link rel="stylesheet" href="newhome.css">
     <!-- <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css"> -->
