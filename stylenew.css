@@ -981,11 +981,13 @@ button:active {
   .button-50 {
     padding: 12px 50px;
   }
+
+}
+@media (max-width: 768px) {
   .close2 {
     margin-right: 20px !important;
   }
 }
-
 .tab button.active {
   background-color: #2525cc;
   color: #fff;
@@ -997,24 +999,87 @@ button:active {
   width: 100%;
   border-left: none;
 }
-
 .close:not(:disabled):not(.disabled) {
   cursor: pointer;
 }
 
 .close:not(:disabled):not(.disabled) {
   cursor: pointer;
+}
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
 }
 .close2 {
-    background: white!important;
-    top: 2px!important;
-    right: 2px!important;
-    color: black!important;
-    font-size: 13px!important;
-    width: 27px!important;
-    height: 27px!important;
-    padding-top: 2px !important;
-    margin-right: 200px ;
+  background: white!important;
+  top: 2px!important;
+  right: 2px!important;
+  color: black!important;
+  font-size: 13px!important;
+  width: 27px!important;
+  height: 27px!important;
+  /* padding-top: 4px;
+  margin-right: 20px; */
+  margin-right:150px;
+}
+
+.close {
+  background: #606061;
+  color: #fff;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: 700;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+.close {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0 1px 0 #186c99;
+  opacity: .9;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  border: 2px solid;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer
+}
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5 !important;
 }
 .close {
   font-size: 1.5rem;
@@ -1034,7 +1099,6 @@ button:active {
   line-height: 20px;
   cursor: pointer;
 }
-
 /*--------------------------------------------------------------
   # Header
   --------------------------------------------------------------*/

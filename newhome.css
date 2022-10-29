@@ -4066,7 +4066,8 @@ body.header-home .head-outer.sticky {
     width: auto;
     padding-top: 0;
     display: inline-block;
-    float: none
+    float: none;
+    /* padding-right: 10px; */
 }
 
 .nav-bar .navigation li {
@@ -4995,7 +4996,7 @@ body.header-home .head-outer.sticky {
         width: 18%
     }
     .nav-bar {
-        width: 70%
+        width: 80%
     }
     .header-bottom .info-box li .contact-icon {
         background-size: 165px;

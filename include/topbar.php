@@ -44,8 +44,8 @@
             <div class="orange helpme overlay animateHeader  aos-init aos-animate" id="myModal">
                 <div class="container positionRel">
                     <div class="row">
-                        <div class="col-lg-5 col-md-6">
-                            <span class="cp-info-bar-msg" style="line-height: 1.8;font-size:14px">Leave your mobile
+                        <div class="col-lg-5 col-md-6 text-center">
+                            <span class="cp-info-bar-msg" style="line-height: 2;font-size:14px">Leave your mobile
                                 number to get a call back.</span>
                         </div>
                         <div class="col-lg-4 col-md-6 col-7 pdr-0">
@@ -76,7 +76,7 @@
                                     style="color: #fff;font-size:13px">+91 72648 89986</a></span>
                         </div>
                     </div>
-                    <a class="close close2" style="margin-right:200px;" data-dismiss="modal">x</a>
+                    <a class="close close2" data-dismiss="modal">x</a>
 
 
                 </div>
@@ -88,7 +88,7 @@
                     <a href="index.php" class="logo-mbl"><img src="wp-content/uploads/2020/10/logo_clove_new-min.webp"
                             class="logo1" alt="Clove Dental Clinic" width="263" height="102"></a>
                 </div>
-                <div class="toggle-icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                <!-- <div class="toggle-icon"><i class="fa fa-bars" aria-hidden="true"></i></div> -->
                 <div class="toggle-menu"><span></span></div>
                 <div class="nav-bar ppp">
                     <div class="navigation">

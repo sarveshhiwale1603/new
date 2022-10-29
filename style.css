@@ -80,7 +80,7 @@ fieldset {
     margin-left: -30px;
 }
 
-.close2 {
+/* .close2 {
     background: white!important;
     top: 2px!important;
     right: 2px!important;
@@ -90,7 +90,7 @@ fieldset {
     height: 27px!important;
     padding-top: 4px;
     margin-right: 20px;
-}
+} */
 
 .button-50 .active {
     background: #ff5000;

@@ -8,7 +8,7 @@ include("include/config.php") ?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Dentists and Dental Clinics Near You | Largest Dental Chain India	</title>
+    <title>Best Dentists and Dental Clinics Near You | Largest Dental Chain India </title>
     <link rel="shortcut icon" href="wp-content\themes\clove\images\favicon.png" type="image/x-icon">
 
     <!-- Bootstrap CSS -->
@@ -30,7 +30,7 @@ include("include/config.php") ?>
 </head>
 
 <body>
-    
+
     <?php include("include/topbar.php"); ?>
 
     <header>
@@ -279,6 +279,43 @@ include("include/config.php") ?>
 
 
         <!--video-->
+        <section class="patient_speaks">
+            <div class="container">
+                <div class="heading">
+                    <h2>Patient Speaks</h2>
+                </div>
+                <div class="">
+                    <div class="row">
+                        <div class="col-lg-3 col-6 pb-3">
+                            <a href="testimonials.php" class="video-box">
+                                <img src="images/video/customer1.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-6 pb-3">
+                            <a href="testimonials.php" class="video-box">
+                                <img src="images/video/customer2.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-6 pb-3">
+                            <a href="testimonials.php" class="video-box">
+                                <img src="images/video/customer3.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-6 pb-3">
+                            <a href="testimonials.php" class="video-box">
+                                <img src="images/video/customer4.webp" alt="">
+                            </a>
+                        </div>
+                        <div style="text-align:center;">
+                            <a href="testimonials.php" class="btn view_more">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--video-->
+
+        <!--video-->
         <!-- <section class="patient_speaks">
             <div class="container">
                 <div class="heading">
@@ -290,7 +327,7 @@ include("include/config.php") ?>
               $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 4";
               $data = mysqli_query($conn, $sql);
               foreach($data as $d){
-          ?>
+                      ?>
                         <div class="col-lg-3 col-6 pb-3">
                             <div class="video-box">
                                 <iframe width="260" height="320" id="<?php echo $d['id']; ?>"
@@ -806,59 +843,24 @@ include("include/config.php") ?>
         <!--offer-->
 
         <!--map-->
-        <!-- <section class="section">
+        <section class="section">
             <div class="container">
                 <h2 class="mb-5 text-center">Our Branch Location</h2>
                 <div class="row pl-0">
                     <div class="r tab" id="r1" style="margin-bottom:40px; margin:10px; text-align: center;">
-                        <button class="button-50 " onclick="openCity(event, 'akurdi')" id="defaultOpen">AKURDI
-                            <span>BRANCH</span></button>
-                        <button class="button-50" onclick="openCity(event, 'wakad')">WAKAD <span>BRANCH</span> </button>
-                        <button class="button-50 active" onclick="openCity(event, 'baner')">BANER
-                            <span>BRANCH</span></button>
-                        <button class="button-50" onclick="openCity(event, 'pimple')"><span>PIMPLE</span>
-                            SAUDAGAR</button>
-                        <button class="button-50" onclick="openCity(event, 'hinjewadi')">HINJEWADI</button>
+                        <a target="_blank" href="https://g.page/MokashiDentalClinicAkurdi?share" class="button-50 ">AKURDI
+                            <span>BRANCH</span></a>
+                        <a target="_blank" href="https://g.page/MokashiDentalClinicWakad?share" class="button-50">WAKAD <span>BRANCH</span> </a>
+                        <a target="_blank" href="https://goo.gl/maps/QbWZv3xYr3r14Rbv5" class="button-50">BANER
+                            <span>BRANCH</span></a>
+                        <a target="_blank" href="https://goo.gl/maps/5yxfzu2CbNG1hbNA9" class="button-50"><span>PIMPLE</span>
+                            SAUDAGAR</a>
+                        <a target="_blank" href="https://goo.gl/maps/ami8Kd4R4id1SjsF8" class="button-50">HINJEWADI</a>
 
                     </div>
-
-                    <div id="akurdi" class="tabcontent" style="display: none;">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.283122167295!2d73.77923291437065!3d18.651286970032448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9daea121625%3A0xca107f7a00fa4ca4!2sMokashi%20Dental%20Clinic%2C%20Akurdi!5e0!3m2!1sen!2sin!4v1621339077398!5m2!1sen!2sin"
-                            width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-
-                    <div id="wakad" class="tabcontent" style="display: none;">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.506302887447!2d73.77018061436988!3d18.59628357170897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b93e66ce1db7%3A0xcf9781de98e710a3!2sMokashi%20Dental%20Clinic%2C%20Wakad%20Branch!5e0!3m2!1sen!2sin!4v1621338745758!5m2!1sen!2sin"
-                            width="100%" height="350" style="border:0; margin-bottom:0" allowfullscreen=""
-                            loading="lazy"></iframe>
-
-                    </div>
-
-                    <div id="baner" class="tabcontent" style="display: block;">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.285064490907!2d73.78567981489334!3d18.561182687385397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x58d63f0c16e34386!2sGo%20Best%20Dentist%20-%20Earlier%20Mokashi%20Dental%20clinic!5e0!3m2!1sen!2sin!4v1629264989353!5m2!1sen!2sin"
-                            width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-
-                    <div id="pimple" class="tabcontent" style="display: none;">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.5573524673227!2d73.79077811489384!3d18.59398458736632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc5b1e259af1e4cdb!2sGo%20Best%20Dentist%20-%20earlier%20Mokashi%20Dental%20clinic%2C%20Pimple%20Saudagar!5e0!3m2!1sen!2sin!4v1629264870279!5m2!1sen!2sin"
-                            width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-                    </div>
-                    <div id="hinjewadi" class="tabcontent" style="display: none;">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.514356516996!2d73.74008!3d18.595920900000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bbddeb629c77%3A0x66a7aa789b024d7d!2sGo-Best%20Dentist%2C%20Hinjewadi!5e0!3m2!1sen!2sin!4v1656677144789!5m2!1sen!2sin"
-                            width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-                    </div>
-
                 </div>
-
             </div>
-        </section> -->
+        </section>
         <!--map-->
 
 
@@ -872,7 +874,8 @@ include("include/config.php") ?>
     <?php include("include/sidebar.php") ?>
 
     <!-- Call Us -->
-    <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
+    <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us"
+        style="color:#ffffff;"><i class="fa fa-phone"></i></a>
 
 
 
@@ -1041,7 +1044,7 @@ include("include/config.php") ?>
     });
     </script>
 
-<!-- <script>
+    <!-- <script>
   if (window.matchMedia('(max-width: 1024px)').matches)
 {
   $(document).ready(function(){
@@ -1058,7 +1061,7 @@ include("include/config.php") ?>
 }
 </script> -->
 
-<!-- <script>(function(w, d) { w.CollectId = "629862db9f8d485e3467b441"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script> -->
+    <!-- <script>(function(w, d) { w.CollectId = "629862db9f8d485e3467b441"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script> -->
 
 
 </body>
