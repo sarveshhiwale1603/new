@@ -21,6 +21,7 @@ include("include/config.php") ?>
     <!-- <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css"> -->
      
     <style>
+        
     .toptext{
         text-align:center;
     }
@@ -37,7 +38,7 @@ include("include/config.php") ?>
         color:#0704b4;
     }
     </style>
-    
+
 
 </head>
 
