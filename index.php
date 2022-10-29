@@ -841,7 +841,7 @@ include("include/config.php") ?>
             </div>
         </div>
         <!--offer-->
-
+  
         <!--map-->
         <section class="section">
             <div class="container">
@@ -877,14 +877,8 @@ include("include/config.php") ?>
     <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us"
         style="color:#ffffff;"><i class="fa fa-phone"></i></a>
 
-
-
-
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <script src="js/jsddd.js"></script>
-
-
-
     <!-- <script defer src="wp-content/themes/clove-child/js/style.js"></script> -->
 
 
