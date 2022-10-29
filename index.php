@@ -20,10 +20,17 @@ include("include/config.php") ?>
     <!-- <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css"> -->
 
     <style>
+        
+    .toptext{
+        text-align:center;
+    }
     @media (max-width: 768px) {
         .close2 {
             margin-right: 20px !important;
         }
+        .toptext{
+        text-align:start;
+    }
     }
 
     .button-50:hover{
@@ -292,22 +299,22 @@ include("include/config.php") ?>
                     <div class="row">
                         <div class="col-lg-3 col-6 pb-3">
                             <a href="testimonials.php" class="video-box">
-                                <img src="images/video/customer1.webp" alt="">
+                                <img src="images/video/customer1.webp" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="col-lg-3 col-6 pb-3">
                             <a href="testimonials.php" class="video-box">
-                                <img src="images/video/customer2.webp" alt="">
+                                <img src="images/video/customer2.webp" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="col-lg-3 col-6 pb-3">
                             <a href="testimonials.php" class="video-box">
-                                <img src="images/video/customer3.webp" alt="">
+                                <img src="images/video/customer3.webp" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="col-lg-3 col-6 pb-3">
                             <a href="testimonials.php" class="video-box">
-                                <img src="images/video/customer4.webp" alt="">
+                                <img src="images/video/customer4.webp" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div style="text-align:center;">
@@ -818,7 +825,7 @@ include("include/config.php") ?>
             <div class="container">
                 <h2 class="mb-5 text-center">Our Branch Location</h2>
                 <div class="row pl-0">
-                    <div class="r tab" id="r1" style="margin-bottom:40px; margin:10px; text-align: center;">
+                    <div class="r tab" id="r1" style="margin-bottom:40px; text-align: center;">
                         <a target="_blank" href="https://g.page/MokashiDentalClinicAkurdi?share"
                             class="button-50 ">AKURDI
                             <span>BRANCH</span></a>
@@ -845,7 +852,7 @@ include("include/config.php") ?>
 
 
     <?php include("include/footer1.php") ?>
-    <?php include("include/sidebar.php") ?>
+    <?php include("include/sidebar1.php") ?>
 
     <!-- Call Us -->
     <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us"
