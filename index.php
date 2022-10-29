@@ -19,8 +19,8 @@ include("include/config.php") ?>
 
 
     <link rel="stylesheet" href="stylenew.css">
-    <!-- <link rel="stylesheet" href="newhome.css"> -->
-    <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css">
+    <link rel="stylesheet" href="newhome.css">
+    <!-- <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css"> -->
 
     <style>
     @media (max-width: 768px) {
