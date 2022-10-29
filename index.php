@@ -33,6 +33,7 @@ include("include/config.php") ?>
 </head>
 
 <body>
+    
     <?php include("include/topbar.php"); ?>
 
     <header>
