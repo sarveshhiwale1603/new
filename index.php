@@ -810,7 +810,7 @@ include("include/config.php") ?>
         <!--offer-->
 
         <!--map-->
-        <!-- <section class="section">
+        <section class="section">
             <div class="container">
                 <h2 class="mb-5 text-center">Our Branch Location</h2>
                 <div class="row pl-0">
@@ -830,7 +830,7 @@ include("include/config.php") ?>
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!--map-->
 
 
