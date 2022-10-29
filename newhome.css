@@ -23,7 +23,7 @@
 }
 
 .capLoad {
-    background: url(../images/reload.png) no-repeat;
+    background: url(wp-content/themes/clove-child/images/reload.png) no-repeat;
     float: left;
     text-indent: -9999px;
     width: 32px;
@@ -1220,7 +1220,7 @@ body {
 .Specialities-box {
     width: 100%;
     float: left;
-    background: url(../images/Specialities-bg.gif) repeat;
+    background: url(wp-content/themes/clove-child/images/Specialities-bg.gif) repeat;
     padding: 25px 4%
 }
 
@@ -1337,7 +1337,7 @@ body {
     text-align: center;
     border-top: 1px solid #d7d7d7;
     padding: 35px 0;
-    background: url(../images/Specialities-bg.gif) repeat
+    background: url(wp-content/themes/clove-child/images/Specialities-bg.gif) repeat
 }
 
 .offer_panel h3 {
@@ -1920,7 +1920,7 @@ body {
 }
 
 .enquiry-typebox label.css-label {
-    background-image: url(../images/radio-butn.png);
+    background-image: url(wp-content/themes/clove-child/images/radio-butn.png);
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -2095,7 +2095,7 @@ input {
 .enquiry-butnbox {
     width: 47px;
     height: 250px;
-    background: url(../images/make-an-inquiry_btn.jpg) no-repeat;
+    background: url(wp-content/themes/clove-child/images/make-an-inquiry_btn.jpg) no-repeat;
     position: fixed;
     top: 50%;
     right: 0;
@@ -2251,7 +2251,7 @@ input {
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
-    background: url(../images/bg_select.png) right center no-repeat
+    background: url(wp-content/themes/clove-child/images/bg_select.png) right center no-repeat
 }
 
 .clove_appointment .form-left .row>input {
@@ -2839,7 +2839,7 @@ input {
 .enquiry-butnbox {
     width: 47px;
     height: 250px;
-    background: url(../images/make-an-inquiry_btn.jpg) no-repeat;
+    background: url(wp-content/themes/clove-child/images/make-an-inquiry_btn.jpg) no-repeat;
     position: fixed;
     top: 50%;
     right: 0;
@@ -2914,7 +2914,7 @@ input {
 #owl-demo .owl-prev,
 .showcase.desktop .flex-direction-nav .flex-next,
 .showcase.desktop .flex-direction-nav .flex-prev {
-    background: url(../images/sprite-image-clove.png) no-repeat left top;
+    background: url(wp-content/themes/clove-child/images/sprite-image-clove.png) no-repeat left top;
     width: 39px;
     height: 67px;
     display: block;
@@ -2972,7 +2972,7 @@ input {
 }
 
 .header-bottom .info-box li .contact-icon {
-    background: url(../images/sprite-image-clove.png);
+    background: url(wp-content/themes/clove-child/images/sprite-image-clove.png);
     width: 28px;
     height: 28px;
     float: left;
@@ -2986,7 +2986,7 @@ input {
 }
 
 .enquiry-formbox .form-inbox li span.select {
-    background: url(../images/sprite-image-clove.png);
+    background: url(wp-content/themes/clove-child/images/sprite-image-clove.png);
     width: 100%;
     padding-right: 5px;
     height: 34px;
@@ -3114,7 +3114,7 @@ input[type=number] {
 }
 
 .corporate-list li {
-    background: url(../images/img_bulits.png) no-repeat left 4px;
+    background: url(wp-content/themes/clove-child/images/img_bulits.png) no-repeat left 4px;
     background-size: 18px;
     font-size: 18px;
     line-height: 24px;
@@ -3412,7 +3412,7 @@ body {
 }
 
 .price-policy-pkg ul li .left-shadow {
-    background: url(../images/img_offer_shadow1.png) no-repeat center bottom;
+    background: url(wp-content/themes/clove-child/images/img_offer_shadow1.png) no-repeat center bottom;
     width: 300px;
     height: 109px;
     position: absolute;
@@ -3423,7 +3423,7 @@ body {
 }
 
 .price-policy-pkg ul li .right-shadow {
-    background: url(../images/img_offer_shadow2.png) no-repeat center bottom;
+    background: url(wp-content/themes/clove-child/images/img_offer_shadow2.png) no-repeat center bottom;
     width: 300px;
     height: 109px;
     position: absolute;
@@ -3451,7 +3451,7 @@ body {
 }
 
 .leave-apply .col2 .row .capLoad {
-    background: url(../images/reload.png) no-repeat;
+    background: url(wp-content/themes/clove-child/images/reload.png) no-repeat;
     float: left;
     text-indent: -9999px;
     width: 32px;
@@ -3545,7 +3545,7 @@ h3.leave-btn {
     width: 63px;
     height: 69px;
     display: inline-block;
-    background: url(../images/sprite-counter.png) left top no-repeat
+    background: url(wp-content/themes/clove-child/images/sprite-counter.png) left top no-repeat
 }
 
 .figure-box li .icon-box .icon2 {
@@ -3564,7 +3564,7 @@ h3.leave-btn {
 }
 
 .figure-box li .icon-box .icon5 {
-    background: url(../images/icon5.png) no-repeat;
+    background: url(wp-content/themes/clove-child/images/icon5.png) no-repeat;
     width: 49px
 }
 
@@ -3737,7 +3737,7 @@ h3.leave-btn {
 .full-footer {
     width: 100%;
     float: left;
-    background: url(../images/bg_footer_teeth.png) repeat left top;
+    background: url(wp-content/themes/clove-child/images/bg_footer_teeth.png) repeat left top;
     position: relative
 }
 
@@ -3795,7 +3795,7 @@ h3.leave-btn {
     position: absolute;
     left: 0;
     top: 8px;
-    background: url(../images/footer-hover-arrow.png) repeat left top;
+    background: url(wp-content/themes/clove-child/images/footer-hover-arrow.png) repeat left top;
     width: 5px;
     height: 9px
 }
@@ -3855,7 +3855,7 @@ h3.leave-btn {
 .footer-socialbox {
     width: 100%;
     float: left;
-    background: url(../images/footer-onepxline.jpg) left top repeat-x;
+    background: url(wp-content/themes/clove-child/images/footer-onepxline.jpg) left top repeat-x;
     padding-top: 30px
 }
 
@@ -3939,7 +3939,7 @@ h3.leave-btn {
 .footer-bottom-box {
     width: 100%;
     float: left;
-    background: url(../images/footer-onepxline.jpg) left top repeat-x;
+    background: url(wp-content/themes/clove-child/images/footer-onepxline.jpg) left top repeat-x;
     margin-top: 30px;
     padding: 15px 0
 }
@@ -10388,7 +10388,7 @@ body.header-home .head-outer.sticky {
         width: 35px;
         height: 35px;
         float: left;
-        background: url(../images/toggle-menu.jpg) no-repeat left top;
+        background: url(wp-content/themes/clove-child/images/toggle-menu.jpg) no-repeat left top;
         margin: 0;
         cursor: pointer;
         z-index: 1;
@@ -10471,7 +10471,7 @@ body.header-home .head-outer.sticky {
         background-size: 100%
     }
     .nav-bar li span.active {
-        background: url(../images/inner-toggle2.jpg) no-repeat left top;
+        background: url(wp-content/themes/clove-child/images/inner-toggle2.jpg) no-repeat left top;
         background-size: 100%
     }
     .nav-bar .navigation li span {
@@ -10706,7 +10706,7 @@ body.header-home .head-outer.sticky {
         display: block
     }
     .toggle-menu {
-        background: url(../images/ico_header_menu.png) no-repeat left top;
+        background: url(wp-content/themes/clove-child/images/ico_header_menu.png) no-repeat left top;
         width: 40px;
         height: 40px;
         top: auto
@@ -10851,14 +10851,14 @@ body.header-home .head-outer.sticky {
         background-size: 100%
     }
     .nav-bar li span.active {
-        background: url(../images/inner-toggle2.jpg) no-repeat left top;
+        background: url(wp-content/themes/clove-child/images/inner-toggle2.jpg) no-repeat left top;
         background-size: 100%
     }
     .toggle-menu {
         width: 35px;
         height: 35px;
         float: left;
-        background: url(../images/toggle-menu.jpg) no-repeat left top;
+        background: url(wp-content/themes/clove-child/images/toggle-menu.jpg) no-repeat left top;
         margin: 21px 0 4px 8px;
         cursor: pointer;
         z-index: 1;
@@ -10899,7 +10899,7 @@ body.header-home .head-outer.sticky {
         margin-bottom: 50px
     }
     .mobile_search .search-field {
-        background: url(../images/search-icon.jpg) no-repeat 11px 13px;
+        background: url(wp-content/themes/clove-child/images/search-icon.jpg) no-repeat 11px 13px;
         font-style: italic;
         color: #4e3224;
         font-size: 14px;
@@ -12932,7 +12932,7 @@ body.header-home .head-outer.sticky {
         height: 30px;
         margin: 0;
         padding: 0;
-        background: url(../images/arrow.png) 0 0 no-repeat;
+        background: url(wp-content/themes/clove-child/images/arrow.png) 0 0 no-repeat;
         opacity: 1;
         border: 0
     }
@@ -13447,7 +13447,7 @@ body.header-home .head-outer.sticky {
         left: 0;
         width: 100%;
         z-index: 1;
-        background: url(../images/gradient_layer1.png) repeat-x;
+        background: url(wp-content/themes/clove-child/images/gradient_layer1.png) repeat-x;
         height: 124px
     }
     .tab-content3.remove_after::after {
@@ -13709,7 +13709,7 @@ body.header-home .head-outer.sticky {
         background-size: 30px
     }
     .special-offers-banner {
-        background: url(../images/img_special_offers_banner_old.jpg) no-repeat center center;
+        background: url(wp-content/themes/clove-child/images/img_special_offers_banner_old.jpg) no-repeat center center;
         background-size: 770px 400px;
         min-height: 250px
     }
@@ -14364,7 +14364,7 @@ body.header-home .head-outer.sticky {
         padding: 0;
         top: 100px;
         left: -2px;
-        background: url(../images/arrow.png) 2px 90px #f2f2f2 no-repeat;
+        background: url(wp-content/themes/clove-child/images/arrow.png) 2px 90px #f2f2f2 no-repeat;
         opacity: 1
     }
     #owl-demo .owl-next {
@@ -14374,7 +14374,7 @@ body.header-home .head-outer.sticky {
         padding: 0;
         top: 100px;
         right: -2px;
-        background: url(../images/arrow.png) -43px 90px #f2f2f2 no-repeat;
+        background: url(wp-content/themes/clove-child/images/arrow.png) -43px 90px #f2f2f2 no-repeat;
         opacity: 1
     }
     #owl-demo .special-rotate.item .iconimg-txt-box {
@@ -15009,7 +15009,7 @@ body.header-home .head-outer.sticky {
         border-bottom: 1px solid #e4e4e4
     }
     .price-policy-pkg ul.mbl li {
-        background: url(../images/bg_offer_border.png) no-repeat center bottom;
+        background: url(wp-content/themes/clove-child/images/bg_offer_border.png) no-repeat center bottom;
         background-size: 100% 1px;
         padding-bottom: 25px;
         margin-bottom: 25px
@@ -15925,7 +15925,7 @@ body.header-home .head-outer.sticky {
     }
     .figure-box li:nth-child(1):after,
     .figure-box li:nth-child(2):after {
-        background: url(../images/top-onepx-1.jpg) right top no-repeat!important;
+        background: url(wp-content/themes/clove-child/images/top-onepx-1.jpg) right top no-repeat!important;
         top: 0;
         content: "";
         position: absolute;
@@ -15946,7 +15946,7 @@ body.header-home .head-outer.sticky {
         background: 0 0!important
     }
     .figure-box li:nth-child(5):before {
-        background: url(../images/bottom-onepx-1.jpg) right top no-repeat;
+        background: url(wp-content/themes/clove-child/images/bottom-onepx-1.jpg) right top no-repeat;
         bottom: 0;
         content: "";
         position: absolute;
@@ -15955,7 +15955,7 @@ body.header-home .head-outer.sticky {
         right: -5px
     }
     .figure-box li:nth-child(4n):after {
-        background: url(../images/bottom-onepx-1.jpg) right top no-repeat;
+        background: url(wp-content/themes/clove-child/images/bottom-onepx-1.jpg) right top no-repeat;
         bottom: 0;
         content: "";
         position: absolute;
@@ -15964,7 +15964,7 @@ body.header-home .head-outer.sticky {
         right: -5px
     }
     .figure-box li:nth-child(3n+1):before {
-        background: url(../images/left-rgt-onepx-1.jpg) left top no-repeat;
+        background: url(wp-content/themes/clove-child/images/left-rgt-onepx-1.jpg) left top no-repeat;
         width: 120px;
         height: 1px;
         content: "";
@@ -15973,7 +15973,7 @@ body.header-home .head-outer.sticky {
         bottom: -1px
     }
     .figure-box li:nth-child(3n):before {
-        background: url(../images/left-rgt-onepx-1.jpg) right top no-repeat;
+        background: url(wp-content/themes/clove-child/images/left-rgt-onepx-1.jpg) right top no-repeat;
         width: 120px;
         height: 1px;
         content: "";
@@ -16046,7 +16046,7 @@ body.header-home .head-outer.sticky {
         border-right: 0!important
     }
     .symt-treatments ul li:nth-child(4n):before {
-        background: url(../images/left-rgt-onepx.jpg) right top no-repeat;
+        background: url(wp-content/themes/clove-child/images/left-rgt-onepx.jpg) right top no-repeat;
         width: 64px;
         height: 1px;
         content: "";
@@ -16061,7 +16061,7 @@ body.header-home .head-outer.sticky {
     .symt-treatments ul li:nth-child(10):after,
     .symt-treatments ul li:nth-child(11):after,
     .symt-treatments ul li:nth-child(9):after {
-        background: url(../images/bottom-onepx.jpg) right top no-repeat;
+        background: url(wp-content/themes/clove-child/images/bottom-onepx.jpg) right top no-repeat;
         bottom: 0;
         content: "";
         position: absolute;
@@ -16071,7 +16071,7 @@ body.header-home .head-outer.sticky {
         display: block!important
     }
     .symt-treatments ul li:nth-child(4n+1):before {
-        background: url(../images/left-rgt-onepx.jpg) left top no-repeat;
+        background: url(wp-content/themes/clove-child/images/left-rgt-onepx.jpg) left top no-repeat;
         width: 64px;
         height: 1px;
         content: "";
@@ -16305,7 +16305,7 @@ body.header-home .head-outer.sticky {
     }
     .full-footer .full-footer-in .call-list-box h4,
     .full-footer .full-footer-in .links-box .links-comman-box h4 {
-        background: url(../images/footer-onepxline.jpg) left bottom repeat-x;
+        background: url(wp-content/themes/clove-child/images/footer-onepxline.jpg) left bottom repeat-x;
         padding-bottom: 15px;
         margin-bottom: 0;
         cursor: pointer;
@@ -16331,7 +16331,7 @@ body.header-home .head-outer.sticky {
         color: #ceb3a0
     }
     .full-footer .full-footer-in .links-box .links-comman-box ul li a {
-        background: url(../images/teeth-icon-2.png) left top no-repeat;
+        background: url(wp-content/themes/clove-child/images/teeth-icon-2.png) left top no-repeat;
         padding-left: 20px;
         background-position: 0 3px
     }
@@ -16339,7 +16339,7 @@ body.header-home .head-outer.sticky {
         display: block
     }
     .links-comman-box ul li:last-child {
-        background: url(../images/footer-onepxline.jpg) left bottom repeat-x;
+        background: url(wp-content/themes/clove-child/images/footer-onepxline.jpg) left bottom repeat-x;
         padding-bottom: 15px!important
     }
     .social-network-box {
@@ -16375,7 +16375,7 @@ body.header-home .head-outer.sticky {
         position: absolute;
         right: 0;
         top: 12px;
-        background: url(../images/plus-icon.png) right no-repeat
+        background: url(wp-content/themes/clove-child/images/plus-icon.png) right no-repeat
     }
     .call-list-box.toggle-mbl h4.active:after,
     .links-comman-box.toggle-mbl h4.active:after {
@@ -16385,7 +16385,7 @@ body.header-home .head-outer.sticky {
         position: absolute;
         right: 0;
         top: 12px;
-        background: url(../images/minus-icon.png) right no-repeat
+        background: url(wp-content/themes/clove-child/images/minus-icon.png) right no-repeat
     }
     .full-footer .full-footer-in .links-box .links-comman-box ul li a::before {
         background: 0 0
@@ -16476,7 +16476,7 @@ body.header-home .head-outer.sticky {
         display: block
     }
     .toggle-menu {
-        background: url(../images/ico_header_menu.png) no-repeat left top;
+        background: url(wp-content/themes/clove-child/images/ico_header_menu.png) no-repeat left top;
         width: 40px;
         height: 40px;
         top: auto
@@ -16563,7 +16563,7 @@ body.header-home .head-outer.sticky {
         padding-top: 20px
     }
     .account-stepup {
-        background: url(../images/bg_account_stepup.png) repeat-x left top;
+        background: url(wp-content/themes/clove-child/images/bg_account_stepup.png) repeat-x left top;
         width: 100%;
         float: left
     }
@@ -17412,7 +17412,7 @@ body.header-home .head-outer.sticky {
         top: 10px;
         width: 22px;
         height: 15px;
-        background: url(../images/bottom-comma.png) no-repeat
+        background: url(wp-content/themes/clove-child/images/bottom-comma.png) no-repeat
     }
     .quote-box {
         padding: 10px 0;
@@ -17452,7 +17452,7 @@ body.header-home .head-outer.sticky {
         position: absolute;
         top: -17px;
         left: 40%;
-        background-image: url(../images/top-arrow-img1.png);
+        background-image: url(wp-content/themes/clove-child/images/top-arrow-img1.png);
         width: 32px;
         height: 17px
     }
@@ -17465,7 +17465,7 @@ body.header-home .head-outer.sticky {
         position: absolute;
         top: -17px;
         left: 40%;
-        background-image: url(../images/top-arrow-img2.png);
+        background-image: url(wp-content/themes/clove-child/images/top-arrow-img2.png);
         width: 32px;
         height: 17px
     }
@@ -17478,7 +17478,7 @@ body.header-home .head-outer.sticky {
         position: absolute;
         top: -17px;
         left: 40%;
-        background-image: url(../images/top-arrow-img3.png);
+        background-image: url(wp-content/themes/clove-child/images/top-arrow-img3.png);
         width: 32px;
         height: 17px
     }
@@ -17615,7 +17615,7 @@ body.header-home .head-outer.sticky {
     .showcase.mobile .flex-pauseplay a.flex-pause:before {
         width: 24px;
         height: 24px;
-        background: url(../images/pause-circle-outline.svg) no-repeat;
+        background: url(wp-content/themes/clove-child/images/pause-circle-outline.svg) no-repeat;
         content: "";
         position: relative;
         left: 4px;
@@ -17629,7 +17629,7 @@ body.header-home .head-outer.sticky {
     .showcase.mobile .flex-pauseplay a.flex-play:before {
         width: 24px;
         height: 24px;
-        background: url(../images/play-circle-outline.svg) no-repeat;
+        background: url(wp-content/themes/clove-child/images/play-circle-outline.svg) no-repeat;
         content: "";
         position: relative;
         left: 4px;
@@ -17781,7 +17781,7 @@ body.header-home .head-outer.sticky {
         top: 10px;
         width: 22px;
         height: 15px;
-        background: url(../images/bottom-comma.png) no-repeat
+        background: url(wp-content/themes/clove-child/images/bottom-comma.png) no-repeat
     }
     .core-value h4 {
         margin-bottom: 30px
@@ -17987,4 +17987,35 @@ body.header-home .head-outer.sticky {
         padding: 0;
         margin-right: 5px;
     }
+}
+
+.full-footer .full-footer-in .links-box .links-comman-box ul li a:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    background: url(wp-content/themes/clove-child/images/footer-hover-arrow.png) repeat left top;
+    width: 5px;
+    height: 9px;
+}
+
+.full-footer .full-footer-in .links-box .links-comman-box ul li a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 5px;
+    height: 9px;
+}
+.full-footer .full-footer-in .links-box .links-comman-box ul li a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid #9e806a;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    background-image: none;
 }
