@@ -14,7 +14,7 @@ include("include/config.php") ?>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        
+
     <link href="wp-content/themes/clove/css/fa.css" rel="stylesheet">
     <link rel="stylesheet" href="stylenew.css">
     <link rel="stylesheet" href="newhome.css">
@@ -37,6 +37,7 @@ include("include/config.php") ?>
         color:#0704b4;
     }
     </style>
+    
 
 </head>
 
