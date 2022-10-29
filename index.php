@@ -9,33 +9,42 @@ include("include/config.php") ?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Dentists and Dental Clinics Near You | Largest Dental Chain India </title>
-    <link rel="shortcut icon" href="wp-content\themes\clove\images\favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="index\images\favicon.png" type="image/x-icon">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link href="wp-content/themes/clove/css/fa.css" rel="stylesheet">
-    <link rel="stylesheet" href="stylenew.css">
-    <link rel="stylesheet" href="newhome.css">
+    <link href="index/css/fa.css" rel="stylesheet">
+    <link rel="stylesheet" href="index/css/stylenew.css">
+    <link rel="stylesheet" href="index/css/newhome.css">
     <!-- <link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css"> -->
-     
+
     <style>
-        
-    .toptext{
-        text-align:center;
+    @media (min-width: 1200px) {
+
+        .h2,
+        h2 {
+            font-size: 2rem !important;
+        }
     }
+
+    .toptext {
+        text-align: center;
+    }
+
     @media (max-width: 768px) {
         .close2 {
             margin-right: 20px !important;
         }
-        .toptext{
-        text-align:start;
-    }
+
+        .toptext {
+            text-align: start;
+        }
     }
 
-    .button-50:hover{
-        color:#0704b4;
+    .button-50:hover {
+        color: #0704b4;
     }
     </style>
 
@@ -58,8 +67,7 @@ include("include/config.php") ?>
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active"
-                    style="background-image: url('wp-content/themes/clove-child/images/banner-1.webp')">
+                <div class="carousel-item active" style="background-image: url('index/images/banner-1.webp')">
                     <div class="carousel-caption caption">
                         <h1 class=" hi" style="width: max-content;padding:0 10px"><span>Best Dentist in Pune<br>and
                                 Pimpri Chinchwad</span></h1>
@@ -68,8 +76,7 @@ include("include/config.php") ?>
                         <a href="#" class="btn1 mt-sm-1 toggle1">Get Offer - Book Now</a>
                     </div>
                 </div>
-                <div class="carousel-item"
-                    style="background-image: url('wp-content/themes/clove-child/images/banner-2.webp')">
+                <div class="carousel-item" style="background-image: url('index/images/banner-2.webp')">
                     <div class="carousel-caption caption">
                         <h1 class=" hi" style="width: max-content;padding:0 10px"><span>Our Passion is
                                 Designing<br>The Perfect Smile</span></h1>
@@ -78,8 +85,7 @@ include("include/config.php") ?>
                         <a href="#" class="btn1 mt-sm-1 toggle1">Exciting Offer On Appointment </a>
                     </div>
                 </div>
-                <div class="carousel-item"
-                    style="background-image: url('wp-content/themes/clove-child/images/banner-3.webp')">
+                <div class="carousel-item" style="background-image: url('index/images/banner-3.webp')">
                     <div class="carousel-caption caption">
                         <h1 class=" hi" style="width: max-content;padding:0 10px"><span>ISO Certified and<br>Awarded
                                 Dental Clinic</span></h1>
@@ -104,85 +110,81 @@ include("include/config.php") ?>
                     </div>
                     <div class="col-lg-2 col-sm-3 treatmentsContainer">
                         <a href="" class="treatments">
-                            <img alt="nearest dental clinic" class="centerImg"
-                                src="wp-content/themes/clove-child/images/filling-icon.webp">
+                            <img alt="nearest dental clinic" class="centerImg" src="index/images/filling-icon.webp">
                             <p class="text-center tratmentTitle">Dental Fillings</p>
                         </a>
                     </div>
                     <div class="col-lg-2 col-sm-3 treatmentsContainer">
                         <a href="" class="treatments">
-                            <img alt="nearest dental clinic" class="centerImg"
-                                src="wp-content/themes/clove-child/images/root-canal-icon.webp">
+                            <img alt="nearest dental clinic" class="centerImg" src="index/images/root-canal-icon.webp">
                             <p class="text-center tratmentTitle">Root Canal Treatment</p>
                         </a>
                     </div>
                     <div class="col-lg-2 col-sm-3 treatmentsContainer">
                         <a href="" class="treatments">
                             <img alt="nearest dental clinic" class="centerImg"
-                                src="wp-content/themes/clove-child/images/teeth-removal-icon.webp">
+                                src="index/images/teeth-removal-icon.webp">
                             <p class="text-center tratmentTitle">Wisdom Teeth Removal</p>
                         </a>
                     </div>
                     <div class="col-lg-2 col-sm-3 treatmentsContainer">
                         <a href="" class="treatments">
                             <img alt="nearest dental clinic" class="centerImg"
-                                src="wp-content/themes/clove-child/images/braces-aligners-icon.webp">
+                                src="index/images/braces-aligners-icon.webp">
                             <p class="text-center tratmentTitle">Braces & Aligners</p>
                         </a>
                     </div>
                     <div class="col-lg-2 col-sm-3 treatmentsContainer">
                         <a href="" class="treatments">
                             <img alt="nearest dental clinic" class="centerImg"
-                                src="wp-content/themes/clove-child/images/dental-implant-icon.webp">
+                                src="index/images/dental-implant-icon.webp">
                             <p class="text-center tratmentTitle">Dental Implants</p>
                         </a>
                     </div>
                     <div class="col-lg-2 col-sm-3 treatmentsContainer">
                         <a href="" class="treatments">
-                            <img alt="nearest dental clinic" class="centerImg"
-                                src="wp-content/themes/clove-child/images/dentures-icon.webp">
+                            <img alt="nearest dental clinic" class="centerImg" src="index/images/dentures-icon.webp">
                             <p class="text-center tratmentTitle">Dentures</p>
                         </a>
                     </div>
                     <div class="col-lg-2 col-sm-3 treatmentsContainer">
                         <a href="" class="treatments">
                             <img alt="nearest dental clinic" class="centerImg"
-                                src="wp-content/themes/clove-child/images/crowns-bridges-icon.webp">
+                                src="index/images/crowns-bridges-icon.webp">
                             <p class="text-center tratmentTitle">Bridges & Crowns</p>
                         </a>
                     </div>
                     <div class="col-lg-2 col-sm-3 treatmentsContainer">
                         <a href="" class="treatments">
                             <img alt="nearest dental clinic" class="centerImg"
-                                src="wp-content/themes/clove-child/images/childrens-dentistry-icon.webp">
+                                src="index/images/childrens-dentistry-icon.webp">
                             <p class="text-center tratmentTitle">Kids Dentistry</p>
                         </a>
                     </div>
                     <div class="col-lg-2 col-sm-3 treatmentsContainer">
                         <a href="" class="treatments">
                             <img alt="nearest dental clinic" class="centerImg"
-                                src="wp-content/themes/clove-child/images/smile-makeover-icon.webp">
+                                src="index/images/smile-makeover-icon.webp">
                             <p class="text-center tratmentTitle">Smile Makeover</p>
                         </a>
                     </div>
                     <div class="col-lg-2 col-sm-3 treatmentsContainer">
                         <a href="" class="treatments">
                             <img alt="nearest dental clinic" class="centerImg"
-                                src="wp-content/themes/clove-child/images/teeth-whitening-icon.webp">
+                                src="index/images/teeth-whitening-icon.webp">
                             <p class="text-center tratmentTitle">Teeth Whitening</p>
                         </a>
                     </div>
                     <div class="col-lg-2 col-sm-3 treatmentsContainer">
                         <a href="" class="treatments">
                             <img alt="nearest dental clinic" class="centerImg"
-                                src="wp-content/themes/clove-child/images/mouth-ulcers-icon.webp">
+                                src="index/images/mouth-ulcers-icon.webp">
                             <p class="text-center tratmentTitle">Mouth Ulcers</p>
                         </a>
                     </div>
                     <div class="col-lg-2 col-sm-3 treatmentsContainer">
                         <a href="" class="treatments">
-                            <img alt="nearest dental clinic" class="centerImg"
-                                src="wp-content/themes/clove-child/images/read-more-icon.webp">
+                            <img alt="nearest dental clinic" class="centerImg" src="index/images/read-more-icon.webp">
                             <p class="text-center tratmentTitle">View More</p>
                         </a>
                     </div>
@@ -199,11 +201,11 @@ include("include/config.php") ?>
                         <div class="img-comp-container">
                             <div class="img-comp-img">
                                 <img style="display: block; vertical-align: middle;" class="imgComp"
-                                    src="wp-content/uploads/2020/10/safety1-min.webp" width="500px" height="500px">
+                                    src="index/images/safety1-min.webp" width="500px" height="500px">
                             </div>
                             <div class="img-comp-img img-comp-overlay">
                                 <img style="display: block; vertical-align: middle;" class="imgComp"
-                                    src="wp-content/uploads/2020/10/safety2-min.webp" width="500px" height="500px">
+                                    src="index/images/safety2-min.webp" width="500px" height="500px">
                             </div>
                         </div>
 
@@ -341,9 +343,8 @@ include("include/config.php") ?>
                         <div class="why text-center container-fluid">
                             <div class="row">
                                 <div class="col-12">
-                                    <img src="wp-content/themes/clove-child/images/AFFORDABLE-DENTISTS.webp"
-                                        alt="Why choose us" class="img-fluid p-xl-2"
-                                        src="wp-content/themes/clove-child/images/AFFORDABLE-DENTISTS.webp">
+                                    <img src="index/images/AFFORDABLE-DENTISTS.webp" alt="Why choose us"
+                                        class="img-fluid p-xl-2" src="index/images/AFFORDABLE-DENTISTS.webp">
                                 </div>
                                 <div class="col-12 pt-2 px-3">
                                     <h5>AFFORDABLE DENTISTS</h5>
@@ -356,9 +357,8 @@ include("include/config.php") ?>
                         <div class="why text-center">
                             <div class="row">
                                 <div class="col-12">
-                                    <img src="wp-content/themes/clove-child/images/ISO-CERTIFIED.webp"
-                                        alt="Why choose us" class="img-fluid p-xl-2"
-                                        src="wp-content/themes/clove-child/images/ISO-CERTIFIED.webp">
+                                    <img src="index/images/ISO-CERTIFIED.webp" alt="Why choose us"
+                                        class="img-fluid p-xl-2" src="index/images/ISO-CERTIFIED.webp">
                                 </div>
                                 <div class="col-12 pl-4 pr-4 pt-2">
                                     <h5>ISO CERTIFIED</h5>
@@ -371,9 +371,8 @@ include("include/config.php") ?>
                         <div class="why text-center">
                             <div class="row">
                                 <div class="col-12 ">
-                                    <img src="wp-content/themes/clove-child/images/Advanced-Technology1.webp"
-                                        alt="Why choose us" class="img-fluid p-xl-2"
-                                        src="wp-content/themes/clove-child/images/Advanced-Technology1.webp">
+                                    <img src="index/images/Advanced-Technology1.webp" alt="Why choose us"
+                                        class="img-fluid p-xl-2" src="index/images/Advanced-Technology1.webp">
                                 </div>
                                 <div class="col-12 px-3 pt-2">
                                     <h5>ADVANCED TECHNOLOGY</h5>
@@ -386,9 +385,8 @@ include("include/config.php") ?>
                         <div class="why text-center">
                             <div class="row">
                                 <div class="col-12 ">
-                                    <img src="wp-content/themes/clove-child/images/SAFETY-&amp;-QUALITY.webp"
-                                        alt="Why choose us" class="img-fluid p-xl-2"
-                                        src="wp-content/themes/clove-child/images/SAFETY-&amp;-QUALITY.webp">
+                                    <img src="index/images/SAFETY-&amp;-QUALITY.webp" alt="Why choose us"
+                                        class="img-fluid p-xl-2" src="index/images/SAFETY-&amp;-QUALITY.webp">
                                 </div>
                                 <div class="col-12 px-3 pt-2">
                                     <h5>SAFETY &amp; QUALITY</h5>
@@ -412,8 +410,7 @@ include("include/config.php") ?>
                         <div class="carousel-inner">
                             <div class="carousel-item item active">
                                 <div class="img-area text-center">
-                                    <img src="wp-content/themes/clove-child/images/Irfan-M.webp" class="d-block w-100 "
-                                        alt="...">
+                                    <img src="index/images/Irfan-M.webp" class="d-block w-100 " alt="...">
                                 </div>
                                 <div class="carousel-caption d-md-block"
                                     style="position:absolute;bottom:0rem !important">
@@ -431,8 +428,7 @@ include("include/config.php") ?>
 
                             <div class="carousel-item item">
                                 <div class=" img-area text-center">
-                                    <img src="wp-content/themes/clove-child/images/Karishma-A.webp"
-                                        class="d-block w-100" alt="...">
+                                    <img src="index/images/Karishma-A.webp" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-caption d-md-block"
                                     style="position:absolute;bottom:0rem !important">
@@ -448,8 +444,7 @@ include("include/config.php") ?>
 
                             <div class="carousel-item item">
                                 <div class="img-area">
-                                    <img src="wp-content/themes/clove-child/images/Rafiq-M.webp" class="d-block w-100"
-                                        alt="...">
+                                    <img src="index/images/Rafiq-M.webp" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-caption d-md-block"
                                     style="position:absolute;bottom:0rem !important">
@@ -467,8 +462,7 @@ include("include/config.php") ?>
 
                             <div class="carousel-item item">
                                 <div class="img-area">
-                                    <img src="wp-content/themes/clove-child/images/Rahul-K.webp" class="d-block w-100"
-                                        alt="...">
+                                    <img src="index/images/Rahul-K.webp" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-caption  d-md-block"
                                     style="position:absolute;bottom:0rem !important">
@@ -486,8 +480,7 @@ include("include/config.php") ?>
 
                             <div class="carousel-item item">
                                 <div class="img-area">
-                                    <img src="wp-content/themes/clove-child/images/Samir-S.webp" class="d-block w-100"
-                                        alt="...">
+                                    <img src="index/images/Samir-S.webp" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-caption  d-md-block"
                                     style="position:absolute;bottom:0rem !important">
@@ -503,8 +496,7 @@ include("include/config.php") ?>
 
                             <div class="carousel-item item">
                                 <div class="img-area">
-                                    <img src="wp-content/themes/clove-child/images/Shainaj-M.webp" class="d-block w-100"
-                                        alt="...">
+                                    <img src="index/images/Shainaj-M.webp" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-caption d-md-block"
                                     style="position:absolute;bottom:0rem !important">
@@ -520,8 +512,7 @@ include("include/config.php") ?>
 
                             <div class="carousel-item item">
                                 <div class="img-area">
-                                    <img src="wp-content/themes/clove-child/images/Shama-M.webp" class="d-block w-100"
-                                        alt="...">
+                                    <img src="index/images/Shama-M.webp" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-caption d-md-block"
                                     style="position:absolute;bottom:0rem !important">
@@ -537,8 +528,7 @@ include("include/config.php") ?>
 
                             <div class="carousel-item item">
                                 <div class="img-area">
-                                    <img src="wp-content/themes/clove-child/images/Shekhar-M.webp" class="d-block w-100"
-                                        alt="...">
+                                    <img src="index/images/Shekhar-M.webp" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-caption d-md-block"
                                     style="position:absolute;bottom:0rem !important">
@@ -585,26 +575,25 @@ include("include/config.php") ?>
                 <div class="row ">
                     <div class="col-lg-3 col-sm-6 col-6 my-4">
                         <div class="machine" data-aos="fade-up" data-aos-duration="800">
-                            <img src="wp-content/themes/clove-child/images/advT1.webp" alt="" class="img-fluid">
+                            <img src="index/images/advT1.webp" alt="" class="img-fluid">
                             <h4 style="fontsize:12px">Rotary Endodontics</h4>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-6  my-4">
                         <div class="machine" data-aos="fade-up" data-aos-duration="1600">
-                            <img src="wp-content/themes/clove-child/images/lightcore.webp" alt=""
-                                class="img-fluid fluid1">
+                            <img src="index/images/lightcore.webp" alt="" class="img-fluid fluid1">
                             <h4>Light Cure </h4>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-6  d-sm-flex my-4">
                         <div class="machine" data-aos="fade-up" data-aos-duration="2400">
-                            <img src="wp-content/themes/clove-child/images/advT3.webp" alt="" class="img-fluid">
+                            <img src="index/images/advT3.webp" alt="" class="img-fluid">
                             <h4>CAD CAM & Zirconia </h4>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-6  d-sm-flex my-4">
                         <div class="machine" data-aos="fade-up" data-aos-duration="3000">
-                            <img src="wp-content/themes/clove-child/images/advT4.webp" alt="" class="img-fluid">
+                            <img src="index/images/advT4.webp" alt="" class="img-fluid">
                             <h4>Ultrasonic Cleaning </h4>
                         </div>
                     </div>
@@ -640,8 +629,7 @@ include("include/config.php") ?>
                         <div class=" hygines" data-aos="fade-up" data-aos-duration="2000">
                             <div class="row">
                                 <div class="col-lg-6 ">
-                                    <img src="wp-content/themes/clove-child/images/hygiene1.webp" alt="hygiene1"
-                                        class="img-fluid">
+                                    <img src="index/images/hygiene1.webp" alt="hygiene1" class="img-fluid">
 
                                     <h4>DISINFECTION</h4>
                                 </div>
@@ -658,8 +646,7 @@ include("include/config.php") ?>
                         <div class="hygines" data-aos="fade-up" data-aos-duration="3000">
                             <div class="row">
                                 <div class="col-lg-6 size">
-                                    <img src="wp-content/themes/clove-child/images/hygiene1_img.webp" alt="hygiene1"
-                                        class="img-fluid">
+                                    <img src="index/images/hygiene1_img.webp" alt="hygiene1" class="img-fluid">
 
                                     <h4>ULTRASONIC CLEANING DEVICES</h4>
                                 </div>
@@ -805,8 +792,8 @@ include("include/config.php") ?>
                                 <a href="#.">Get Offer</a>
                             </div>
                             <div class="cta-whitebox ms-auto">
-                                <h2><img class="smile" src="wp-content/themes/clove-child/images/smile.webp"
-                                        alt="image"> Smile At <span class="hylyt">Affordable</span> Fees !</h2>
+                                <h2><img class="smile" src="index/images/smile.webp" alt="image"> Smile At <span
+                                        class="hylyt">Affordable</span> Fees !</h2>
                                 <p style="font-size:15px;margin-bottom:1rem !important;">Free Check Up &amp; Upto 50%
                                     Discount On All Dental Treatments | Free Consultation |
                                     Root Canal 50% Flat Discount</p>
@@ -860,10 +847,10 @@ include("include/config.php") ?>
     <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us"
         style="color:#ffffff;"><i class="fa fa-phone"></i></a>
 
-        
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <script src="js/jsddd.js"></script>
     <!-- <script defer src="wp-content/themes/clove-child/js/style.js"></script> -->
