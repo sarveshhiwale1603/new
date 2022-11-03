@@ -15,24 +15,44 @@ if (mysqli_num_rows($carrers)>0){
 }
 include("Include/topbar.php");
 
-if(isset($_GET['delid'])){
-  $id=$_GET['delid'];
-  $sql=mysqli_query($conn,"DELETE FROM `carrers` WHERE id='$id'");
+// if(isset($_GET['delid'])){
+//   $id=$_GET['delid'];
+//   $sql=mysqli_query($conn,"DELETE FROM `carrers` WHERE id='$id'");
 
-  if($sql)
-			{
-			header("location:careers.php");
-			}
-			else{
-			echo"<script> alert('Not Deleted');</script>";    
-			}
+//   if($sql)
+// 			{
+// 			header("location:careers.php");
+// 			}
+// 			else{
+// 			echo"<script> alert('Not Deleted');</script>";    
+// 			}
 
-}
+// }
 
 
 
 
   ?>
+
+  <?php
+    if(isset($_POST['deletepassword'])){
+        $checkPassword1=$_POST['checkPassword1'];
+        $id=$_POST['id1'];
+        $sql=mysqli_query($conn,"select * from universalpassword");
+        while ($row=mysqli_fetch_array($sql)){ 
+          $rowPass=$row['password'];
+            $pass=password_verify($checkPassword1,$rowPass);
+            if($pass==1){
+                $sql=mysqli_query($conn,"DELETE FROM `carrers` WHERE id='$id'");
+                header("location:careers.php");
+            }
+            else{
+                echo"<script>alert('invalid Password');</script>";
+            }
+    
+        }
+    }
+    ?>
 
 <?php
 if(isset($_POST['carupdate'])){
@@ -58,6 +78,36 @@ $sql=mysqli_query($conn,"UPDATE `carrers` SET `status`='$status',`remark`='$rema
 <!-- Content Wrapper. Contains page content -->
 
 <div class="content-wrapper">
+
+   <div class="modal fade" id="modal-delete">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Delete Password</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form method="post">
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-12 form-group">
+                                    <input type="hidden" name="id1" id="deleteid" >
+                                    <label class="col-form-label" for="name">Enter Password</label>
+                                    <input type="password" class="form-control" name="checkPassword1" required="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer justify-content-end">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary sub" data-toggle="modal"  name="deletepassword">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
   <!-- Content Header (Page header) -->
   <section class="content-header">
     <div class="container-fluid">
@@ -131,7 +181,7 @@ $sql=mysqli_query($conn,"UPDATE `carrers` SET `status`='$status',`remark`='$rema
                             data-toggle="modal" data-target="#exampleModal" data-id='<?php echo $row['id']; ?>'
                             style="color: aliceblue"> <i class="fas fa-pen"></i>
                           </a>
-                          <a class="btn btn-danger" href="careers.php?delid=<?php echo $row['id'];?>"><i
+                          <a class="btn btn-danger delete_id" data-toggle="modal" data-id="<?php echo $row['id']; ?>"><i
                               class="fas fa-trash"></i></a>
                         </td>
 
@@ -213,7 +263,11 @@ $sql=mysqli_query($conn,"UPDATE `carrers` SET `status`='$status',`remark`='$rema
   });
 
 
-
+  $(document).on('click','.delete_id',function(){
+    let id=$(this).data('id');
+    $('#deleteid').val(id);
+    $('#modal-delete').modal('show');
+})
 
 
 

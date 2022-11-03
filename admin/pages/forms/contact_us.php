@@ -28,6 +28,8 @@ if(isset($_GET['delid'])){
 
 }
 
+
+
   ?>
   <?php
 if(isset($_POST['conupdate'])){
@@ -46,6 +48,25 @@ $sql=mysqli_query($conn,"UPDATE `contactus` SET `status`='$status',`remark`='$re
 
 }
 ?>
+<?php
+    if(isset($_POST['deletepassword'])){
+        $checkPassword1=$_POST['checkPassword1'];
+        $id=$_POST['id1'];
+        $sql=mysqli_query($conn,"select * from universalpassword");
+        while ($row=mysqli_fetch_array($sql)){ 
+          $rowPass=$row['password'];
+            $pass=password_verify($checkPassword1,$rowPass);
+            if($pass==1){
+                $sql=mysqli_query($conn,"DELETE FROM `contactus` WHERE id='$id'");
+                header("location:contact_us.php");
+            }
+            else{
+                echo"<script>alert('invalid Password');</script>";
+            }
+    
+        }
+    }
+    ?>
 
 <!-- /.navbar -->
 
@@ -54,6 +75,35 @@ $sql=mysqli_query($conn,"UPDATE `contactus` SET `status`='$status',`remark`='$re
 <!-- Content Wrapper. Contains page content -->
 
 <div class="content-wrapper">
+   <div class="modal fade" id="modal-delete">  
+<div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Delete Password</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form method="post">
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-12 form-group">
+                                    <input type="hidden" name="id1" id="deleteid" >
+                                    <label class="col-form-label" for="name">Enter Password</label>
+                                    <input type="password" class="form-control" name="checkPassword1" required="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer justify-content-end">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary sub" data-toggle="modal"  name="deletepassword">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
   <!-- Content Header (Page header) -->
   <section class="content-header">
     <div class="container-fluid">
@@ -129,7 +179,7 @@ $sql=mysqli_query($conn,"UPDATE `contactus` SET `status`='$status',`remark`='$re
                             data-toggle="modal" data-target="#exampleModal" data-id='<?php echo $row['id']; ?>'
                             style="color: aliceblue"> <i class="fas fa-pen"></i>
                           </a>
-                          <a class="btn btn-danger" href="contact_us.php?delid=<?php echo $row['id'];?>"><i
+                          <a class="btn btn-danger delete_id" data-toggle="modal" data-id="<?php echo $row['id']; ?>"><i
                               class="fas fa-trash"></i></a>
                         </td>
 
@@ -230,6 +280,12 @@ $sql=mysqli_query($conn,"UPDATE `contactus` SET `status`='$status',`remark`='$re
 
 
   });
+
+    $(document).on('click','.delete_id',function(){
+    let id=$(this).data('id');
+    $('#deleteid').val(id);
+    $('#modal-delete').modal('show');
+})
 </script>
 <div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true">
