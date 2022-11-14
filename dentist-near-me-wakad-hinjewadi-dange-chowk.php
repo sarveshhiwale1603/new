@@ -791,7 +791,7 @@ $branch= $_POST['branch'];
 $message= $_POST['message'];
 // configure
 $from = 'Enquiry <care@gobestdentist.com>'; 
-$send = ['dr.sanamokashi@gmail.com', 'gobestdentist@gmail.com', 'seniormanager1234@gmail.com','naiduvedant@gmail.com','dkeshari094@gmail.com'];
+$send = ['dr.sanamokashi@gmail.com', 'gobestdentist@gmail.com', 'seniormanager1234@gmail.com'];
 $sendTo =  implode(',',$send);
 $subject = 'Hinjewadi Form from Website';
 $fields = array('firstname' => 'firstname', 'lastname' => 'lastname','PhoneNumber' => 'PhoneNumber', 'message' => 'message', 'branch' => 'branch'); // array variable name => Text to appear in email
@@ -1707,7 +1707,7 @@ html {
         });
         infowindow.open(map, marker);
     }
-    
+    </script>
  
 <script src="https://maps.googleapis.com/maps/api/js?key=api_key&callback=getData" async defer></script>
 </script> 
